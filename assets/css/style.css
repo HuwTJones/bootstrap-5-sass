@@ -10769,5 +10769,36 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-login {
+  color: white;
+  background-color: #f0508a;
+  font-weight: 600;
+  margin: auto 0.7rem;
+  border: 1px solid #903053;
+}
+.btn-login:hover {
+  background-color: #fff;
+  font-weight: 600;
+  color: #f0508a;
+  border: 1px solid #903053;
+}
+
+.menu {
+  background: #f8f9fa;
+}
+.menu a {
+  color: #0e263a !important;
+  font-weight: 600;
+  padding: auto 0.7rem !important;
+  margin: auto 0.4rem;
+}
+.menu a:hover {
+  color: #f0508a !important;
+  font-weight: 600;
+}
+.menu .navbar-toggler {
+  background-color: #f0508a;
+  border: 1px solid #903053;
+}
 
 /*# sourceMappingURL=style.css.map */

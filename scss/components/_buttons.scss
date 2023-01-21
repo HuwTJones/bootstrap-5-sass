@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.btn-login{
+    color:white;
+    background-color: $secondary;
+    font-weight:600;
+    margin: auto 0.7rem;
+    border: 1px solid $pink-700;
+
+    &:hover{
+        background-color: $white;
+        font-weight:600;
+        color:$secondary;
+        border: 1px solid $pink-700;
+    }
+}

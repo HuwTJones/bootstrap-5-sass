@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+.menu{
+    background:$light;
+    a{
+        color:$indigo !important;
+        font-weight:600;
+        padding: auto 0.7rem !important;
+        margin: auto 0.4rem;
+
+         &:hover{
+            color:$secondary !important;
+            font-weight:600;
+        }
+    }
+
+    .navbar-toggler{
+    background-color:$secondary;
+    border:1px solid $pink-700;
+   }
+
+}
