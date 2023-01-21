@@ -10769,18 +10769,32 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-login {
+.btn-secondary {
   color: white;
   background-color: #f0508a;
   font-weight: 600;
-  margin: auto 0.7rem;
   border: 1px solid #903053;
 }
-.btn-login:hover {
+.btn-secondary:hover {
   background-color: #fff;
   font-weight: 600;
   color: #f0508a;
   border: 1px solid #903053;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+}
+.display-2--intro {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.display-2--description {
+  font-size: 1.6rem;
+  font-weight: 200;
+  display: block;
+  margin: 1rem auto;
 }
 
 .menu {
@@ -10799,6 +10813,14 @@ textarea.form-control-lg {
 .menu .navbar-toggler {
   background-color: #f0508a;
   border: 1px solid #903053;
+}
+
+.hero-section {
+  padding: 4rem 0;
+  height: 100%;
+  width: 100%;
+  background-color: #153a59;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

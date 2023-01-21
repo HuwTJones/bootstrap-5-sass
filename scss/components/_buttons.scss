@@ -1,10 +1,9 @@
 @use '../custom' as *;
 
-.btn-login{
+.btn-secondary{
     color:white;
     background-color: $secondary;
     font-weight:600;
-    margin: auto 0.7rem;
     border: 1px solid $pink-700;
 
     &:hover{
