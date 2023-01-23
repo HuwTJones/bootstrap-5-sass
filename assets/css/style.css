@@ -10858,4 +10858,13 @@ textarea.form-control-lg {
   background-color: #f0508a;
 }
 
+.our-courses {
+  padding: 4rem 0;
+  height: 100%;
+  width: 100%;
+  background-color: #153a59;
+  text-align: center;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
