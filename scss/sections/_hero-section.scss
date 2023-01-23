@@ -1,9 +1,28 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
 
 .hero-section{
     padding:4rem 0;
     height:100%;
     width:100%;
     background-color: $primary;
-    color:$white;
+}
+
+.intros{
+
+
+    .video-holder{
+      position:relative;
+        a{
+            @include absoluteCentre;
+
+            span{
+
+                i{
+                    font-size:8rem;
+                    color:$secondary;
+                }
+            }
+        }
+    }
 }

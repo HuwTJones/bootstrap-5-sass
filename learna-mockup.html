@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap-fonts.css">
     <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Start of the navbar -->
@@ -36,15 +40,29 @@
       <section id="home" class="hero-section">
         <div class="container">
             <div class="row text-white">
+              <!-- Intro text and button start -->
                 <div class="col-md-6 intros">
                     <h1 class="display-2">
                         <span class="display-2--intro">Welcome to Learna</span>
                         <span class="display-2--description">Flexible online education.</span>
                         <span class="display-2--description">Delivered by experts, designed for professionals.</span>
                     </h1>
-                    <button type="button" class="btn btn-secondary my-4 shadow"><i class="bi bi-book-half pe-2"></i>View our courses</button>
+                    <button type="button" class="btn btn-lg btn-secondary my-4 shadow"><i class="bi bi-book-half pe-2"></i>View our courses</button>
                 </div>
-                <div class="col-md-6 intros"></div>
+              <!-- Intro text and button end -->
+              <!-- Intro video holder start -->
+                <div class="col-md-6 intros">
+                  <div class="video-holder my-4">
+                    <img src="https://learna.imgix.net/learna/home/learna-homepage-video-v1.jpg" alt="Play the intro video" class="img-fluid">
+                    <a href="#">
+                      <span>
+                        <i class="bi bi-play-fill"></i>
+                      </span>
+                    </a>
+                    <!-- <a href="https://player.vimeo.com/video/488049606?autoplay=1&amp;loop=1&amp;autopause=0"><img src="https://learna.imgix.net/learna/home/learna-homepage-video-v1.jpg?auto=format&amp;w=570" alt="Learna intro video"></a> -->
+                  </div> 
+                </div>
+              <!-- Intro video holder end -->
             </div>
         </div>
       </section>
@@ -68,27 +86,27 @@
               <p class="mx-4">Our courses are some of the most affordable of their kind, providing value for money without compromising on quality. We also don't apply an international surcharge.</p>
             </div>
             <div class="col-md-4 text-center my-4">
-              <img src="images/affordable.svg" alt="Money box" style="width:40%">
+              <img src="images/flexible.svg" alt="Globe wearing motorboard hat" style="width:40%">
               <h3>Study Flexibly</h3>
               <p class="mx-4">Self-directed online learning puts you in control. No fixed timetable means you can log in & learn on the go, at your convenience.</p>
             </div>
             <div class="col-md-4 text-center my-4">
-              <img src="images/affordable.svg" alt="Money box" style="width:40%">
+              <img src="images/experts.svg" alt="Person's head emerging from laptop screen" style="width:40%">
               <h3>Learn with Experts</h3>
               <p class="mx-4">Being totally online means we can select the very best tutors and resource editors, no matter where they’re located.</p>
             </div>
             <div class="col-md-4 text-center my-4">
-              <img src="images/affordable.svg" alt="Money box" style="width:40%">
+              <img src="images/network.svg" alt="Person and speech bubble emerging from laptop screen" style="width:40%">
               <h3>Grow Your Network</h3>
               <p class="mx-4">Connect with multidisciplinary people around the world to expand your insights & broaden your career prospects.</p>
             </div>
             <div class="col-md-4 text-center my-4">
-              <img src="images/affordable.svg" alt="Money box" style="width:40%">
+              <img src="images/prospects.svg" alt="A diploma" style="width:40%">
               <h3>Boost Your Prospects</h3>
               <p class="mx-4">Fast-track your career with intensive courses that let you graduate quicker. Access CPD & exam resources anytime, anywhere.</p>
             </div>
             <div class="col-md-4 text-center my-4">
-              <img src="images/affordable.svg" alt="Money box" style="width:40%">
+              <img src="images/environment.svg" alt="Someone holding the world in the palm of their hand" style="width:40%">
               <h3>Environmentally Conscious</h3>
               <p class="mx-4">Our programmes produce 90% fewer emissions than campus-based learning.</p>
             </div>
@@ -97,7 +115,15 @@
       </section>
     <!-- End of why Learna section -->
 
-    
+    <!-- Start courses section -->
+    <section id="courses" class="our-courses">
+      <div class="container">
+        <div class="row">
+          
+        </div>
+      </div>
+    </section>
+    <!-- End courses section -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
