@@ -10786,12 +10786,29 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 .display-2--intro {
+  font-family: Patua One, Helvetica, Arial, sans-serif;
   display: inline-block;
   font-size: 3rem;
   font-weight: 400;
 }
 .display-2--description {
   font-size: 1.6rem;
+  font-weight: 200;
+  display: block;
+  margin: 1rem auto;
+}
+
+.display-3 {
+  margin-bottom: 1.4rem;
+}
+.display-3--section-title {
+  font-family: Patua One, Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.display-3--description {
+  font-size: 1.4rem;
   font-weight: 200;
   display: block;
   margin: 1rem auto;
@@ -10821,6 +10838,13 @@ textarea.form-control-lg {
   width: 100%;
   background-color: #153a59;
   color: #fff;
+}
+
+.why-learna-section {
+  padding: 1rem 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f0508a;
 }
 
 /*# sourceMappingURL=style.css.map */
