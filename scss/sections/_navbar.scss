@@ -7,10 +7,12 @@
         font-weight:600;
         padding: auto 0.7rem !important;
         margin: auto 0.4rem;
+        border-bottom:2px solid transparent;
 
          &:hover{
             color:$secondary !important;
             font-weight:600;
+            border-bottom:2px solid $secondary;
         }
     }
 
