@@ -6,6 +6,10 @@
     color:$white;
 }
 
+.socials-holder{
+    font-size:2rem;
+}
+
 .contact-us{
     background-color: $primary;
 }
@@ -33,4 +37,27 @@
             color:$gray-300;
         }
     }
+}
+
+// Style the footer links
+.footer-list{
+   display:block;
+   list-style-type:none;
+   position:relative;
+
+   li{
+    margin-bottom:0.5rem;
+    text-decoration:none;
+
+    a{
+        text-decoration:none;
+        color:$white;
+
+        &:hover{
+            text-decoration:underline;
+            color:$secondary;
+        }
+    }
+   }
+
 }

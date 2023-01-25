@@ -10812,6 +10812,14 @@ textarea.form-control-lg {
   margin-bottom: 1.6rem;
 }
 
+.display-4--footer-title {
+  font-family: "Patua One", cursive;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
 .menu {
   background: #f8f9fa;
 }
@@ -10875,6 +10883,10 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.socials-holder {
+  font-size: 2rem;
+}
+
 .contact-us {
   background-color: #153a59;
 }
@@ -10895,6 +10907,24 @@ textarea.form-control-lg {
 .contact-holder__info--subtitle {
   font-size: 1rem;
   color: #dee2e6;
+}
+
+.footer-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.footer-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-list li a:hover {
+  text-decoration: underline;
+  color: #f0508a;
 }
 
 /*# sourceMappingURL=style.css.map */
