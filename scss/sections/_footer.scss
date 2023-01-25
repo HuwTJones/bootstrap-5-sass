@@ -1,0 +1,36 @@
+@use '../custom' as *;
+
+.footer{
+    padding-top:1rem;
+    background-color: $indigo;
+    color:$white;
+}
+
+.contact-us{
+    background-color: $primary;
+}
+
+// Contact details styling
+.contact-holder{
+    position:relative;
+
+    &__icon{
+        font-size:2rem;
+        color:$white;
+        padding-top:0.3rem;
+    }
+
+    &__info{
+
+        &--title{
+            font-size:1.2rem;
+            margin-bottom:0.2rem;
+            color:$white;
+        }
+
+        &--subtitle{
+            font-size:1rem;
+            color:$gray-300;
+        }
+    }
+}

@@ -10869,4 +10869,32 @@ textarea.form-control-lg {
   color: #153a59;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #0e263a;
+  color: #fff;
+}
+
+.contact-us {
+  background-color: #153a59;
+}
+
+.contact-holder {
+  position: relative;
+}
+.contact-holder__icon {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 0.3rem;
+}
+.contact-holder__info--title {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+.contact-holder__info--subtitle {
+  font-size: 1rem;
+  color: #dee2e6;
+}
+
 /*# sourceMappingURL=style.css.map */
