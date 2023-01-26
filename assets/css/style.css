@@ -10870,6 +10870,16 @@ textarea.form-control-lg {
 
 .university-partners {
   background-color: #153a59;
+  padding: 0 0 5rem 0;
+}
+.university-partners__logo-holder {
+  max-width: 100%;
+  height: 10rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.university-partners__logo-holder img {
+  height: 100%;
 }
 
 .our-courses {
