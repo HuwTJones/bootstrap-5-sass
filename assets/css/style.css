@@ -10877,6 +10877,7 @@ textarea.form-control-lg {
   height: 12rem;
   text-align: center;
   margin-top: 2rem;
+  position: relative;
 }
 .university-partners__logo-holder img {
   height: 100%;
@@ -10889,6 +10890,40 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
   text-align: center;
   color: #153a59;
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #153a59;
+}
+.testimonials__slide {
+  height: auto;
+  text-align: center;
+}
+.testimonials__slide figure {
+  padding: 2rem 1.25rem;
+}
+.testimonials__slide blockquote {
+  font-size: 2rem;
+  line-height: 3.5rem;
+  height: 100%;
+  quotes: "“" "”" "‘" "’";
+}
+.testimonials__slide blockquote::before {
+  content: open-quote;
+}
+.testimonials__slide blockquote::after {
+  content: close-quote;
+}
+.testimonials__slide figcaption {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.testimonials__trust {
+  height: auto;
+  text-align: center;
 }
 
 .footer {

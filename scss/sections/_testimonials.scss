@@ -1,0 +1,45 @@
+@use '../custom' as *;
+
+.testimonials{
+    position:relative;
+    padding:0;
+    background-color: $light;
+    color:$primary;
+
+    &__slide{
+       height:auto;
+       text-align:center;
+       
+    figure{
+        padding:2rem 1.25rem;
+       }
+    
+    blockquote{
+        font-size:2rem;
+        line-height:3.5rem;
+        height:100%;
+        quotes: "“" "”" "‘" "’"; 
+
+        &::before{
+            content: open-quote;
+        }
+
+        &::after{
+            content: close-quote;
+        }
+    }
+
+    figcaption{
+        font-size:1.4rem;
+        text-align:center;
+    }
+
+    }
+
+    
+    &__trust{
+        height:auto;
+        text-align:center;
+    }
+
+}
