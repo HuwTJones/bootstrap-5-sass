@@ -10913,8 +10913,8 @@ textarea.form-control-lg {
   padding: 2rem 1.25rem;
 }
 .testimonials__slide blockquote {
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   height: 100%;
   quotes: "“" "”" "‘" "’";
 }
