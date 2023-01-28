@@ -7,4 +7,17 @@
     background-color: $light;
     text-align:center;
     color:$primary;
+
+    button{
+        &.nav-link{
+            color:$white;
+            background-color: $primary;
+        }
+
+        &.nav-link.active{
+            color:$primary;
+            background-color: $white;
+            border-color: $primary;
+        }
+    }
 }

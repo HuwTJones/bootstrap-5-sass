@@ -10891,6 +10891,15 @@ textarea.form-control-lg {
   text-align: center;
   color: #153a59;
 }
+.our-courses button.nav-link {
+  color: #fff;
+  background-color: #153a59;
+}
+.our-courses button.nav-link.active {
+  color: #153a59;
+  background-color: #fff;
+  border-color: #153a59;
+}
 
 .testimonials {
   position: relative;
@@ -10921,9 +10930,6 @@ textarea.form-control-lg {
 .testimonials__slide figcaption {
   font-size: 1.4rem;
   text-align: center;
-}
-.testimonials__slide .bi {
-  font-size: 2rem;
 }
 .testimonials__trust {
   height: auto;
