@@ -10788,12 +10788,11 @@ textarea.form-control-lg {
 .display-2--intro {
   font-family: "Patua One", cursive;
   display: inline-block;
-  font-size: 3rem;
   font-weight: 400;
 }
 .display-2--description {
-  font-size: 1.6rem;
-  font-weight: 200;
+  font-size: 1.8rem;
+  font-weight: 400;
   display: block;
   margin: 1rem auto;
 }
@@ -10801,13 +10800,12 @@ textarea.form-control-lg {
 .display-3--section-title {
   font-family: "Patua One", cursive;
   display: inline-block;
-  font-size: 2rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 .display-3--description {
-  font-size: 1.4rem;
-  font-weight: 200;
+  font-size: 1.6rem;
+  font-weight: 400;
   display: block;
   margin-bottom: 1.6rem;
 }
@@ -10815,7 +10813,6 @@ textarea.form-control-lg {
 .display-4--footer-title {
   font-family: "Patua One", cursive;
   display: inline-block;
-  font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -10916,8 +10913,8 @@ textarea.form-control-lg {
   padding: 2rem 1.25rem;
 }
 .testimonials__slide blockquote {
-  font-size: 2rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   height: 100%;
   quotes: "“" "”" "‘" "’";
 }
@@ -10928,7 +10925,7 @@ textarea.form-control-lg {
   content: close-quote;
 }
 .testimonials__slide figcaption {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 .testimonials__trust {
@@ -10943,7 +10940,7 @@ textarea.form-control-lg {
   height: 100%;
 }
 .testimonials__trust .ratings {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   padding-bottom: 1rem;
 }
 .testimonials__trust .reviews {
