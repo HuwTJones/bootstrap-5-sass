@@ -10997,4 +10997,127 @@ textarea.form-control-lg {
   color: #f0508a;
 }
 
+.case-intro {
+  padding: 6rem 0 3rem 0;
+  height: 100%;
+  width: 100%;
+  color: #153a59;
+  background-color: #f8f9fa;
+}
+
+.case-section {
+  padding: 2rem 0;
+  height: 100%;
+  width: 100%;
+  color: #153a59;
+  background-color: #f8f9fa;
+}
+
+/*speech bubble styling*/
+.speech-bubble {
+  position: relative;
+  border-radius: 1rem !important;
+  background-color: #0e263a;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.speech-bubble-bottom-left:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border: 1.781em solid transparent;
+  border-top-color: #0e263a;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -0.891em;
+  margin-bottom: -1.781em;
+}
+
+.speech-bubble-bottom-right:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  width: 0;
+  height: 0;
+  border: 1.781em solid transparent;
+  border-top-color: #000000;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: -0.891em;
+  margin-bottom: -1.781em;
+}
+
+.meter {
+  height: 1vh;
+  position: relative;
+  background: #ccc;
+  border-radius: 25px;
+}
+
+.meter > span {
+  display: block;
+  height: 1vh;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #479f76;
+  position: relative;
+  overflow: hidden;
+}
+
+/*user journey map and story*/
+.chevron-section {
+  color: white;
+}
+
+.journey-step-1 {
+  background-color: #0097a7;
+}
+
+.journey-step-2 {
+  background-color: #9c27b0;
+}
+
+.journey-step-3 {
+  background-color: #5f4339;
+}
+
+.journey-step-4 {
+  background-color: #3f51b5;
+}
+
+.journey-step-5 {
+  background-color: #d63384;
+}
+
+.journey-step-6 {
+  background-color: #4caf50;
+}
+
+.card-footer {
+  color: #fff;
+}
+
+.user-journey .bi {
+  font-size: 1.4rem;
+}
+
+.meter .sad {
+  background-color: #dc3545;
+}
+
+.meter .happy {
+  background-color: #198754;
+}
+
+.meter .mid {
+  background-color: #fd7e14;
+}
+
 /*# sourceMappingURL=style.css.map */
