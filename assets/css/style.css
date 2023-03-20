@@ -11146,7 +11146,15 @@ textarea.form-control-lg {
 }
 
 .my-work-wrapper {
+  margin-bottom: 6rem;
+}
+.my-work-wrapper.border-1 {
   border: 4px solid #153a59;
+  border-radius: 4px;
+  padding: 2rem;
+}
+.my-work-wrapper.border-2 {
+  border: 3px solid #153a59;
   border-radius: 4px;
   padding: 2rem;
 }
@@ -11164,11 +11172,22 @@ textarea.form-control-lg {
   line-height: 1.2;
   font-weight: 500;
 }
-.portfolio-work .resting-title {
+.portfolio-work h2.resting-title {
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 0;
   margin-bottom: 0;
   transform: translateY(-130%);
+}
+.portfolio-work h3 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.portfolio-work h3.resting-title {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 0;
+  transform: translateY(-132%);
 }
 .portfolio-work button.nav-link {
   color: #fff;
