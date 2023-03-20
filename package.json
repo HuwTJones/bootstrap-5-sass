@@ -9,7 +9,7 @@
   "author": "Huw Jones",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.57.1"
+    "sass": "^1.58.3"
   },
   "dependencies": {
     "autoprefixer": "^10.4.13",
