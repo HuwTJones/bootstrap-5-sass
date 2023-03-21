@@ -10785,16 +10785,21 @@ textarea.form-control-lg {
 .portfolio-title {
   color: #153a59;
 }
+.portfolio-title span {
+  margin-bottom: 0;
+  padding-top: 0;
+}
 .portfolio-title--intro {
-  display: block;
-  font-size: 6rem;
-  line-height: 1.2;
+  font-family: "Teko", sans-serif;
+  font-size: 8rem;
+  line-height: 1;
   font-weight: 700;
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 .portfolio-title--description {
   display: inline-block;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -10852,6 +10857,23 @@ textarea.form-control-lg {
 .menu .navbar-toggler {
   background-color: #f0508a;
   border: 1px solid #903053;
+}
+.menu.portfolio a {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  color: #153a59 !important;
+  font-weight: 300;
+  margin: auto 0.5rem;
+  border-bottom: 2px solid transparent;
+}
+.menu.portfolio a:hover {
+  color: #f0508a !important;
+  font-weight: 300;
+  border-bottom: 2px solid #f0508a;
+}
+.menu.portfolio .navbar-toggler {
+  background-color: #153a59;
+  border: 1px solid;
 }
 
 .hero-section {
@@ -11146,7 +11168,7 @@ textarea.form-control-lg {
 }
 
 .my-work-wrapper {
-  margin-bottom: 6rem;
+  margin: 2rem auto 4rem auto;
 }
 .my-work-wrapper.border-1 {
   border: 4px solid #153a59;
@@ -11157,6 +11179,7 @@ textarea.form-control-lg {
   border: 3px solid #153a59;
   border-radius: 4px;
   padding: 2rem;
+  margin-bottom: 6rem;
 }
 
 .portfolio-work {
@@ -11168,7 +11191,8 @@ textarea.form-control-lg {
   color: #153a59;
 }
 .portfolio-work h2 {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: "Teko", sans-serif;
   line-height: 1.2;
   font-weight: 500;
 }
@@ -11176,10 +11200,11 @@ textarea.form-control-lg {
   text-align: left;
   margin-left: 0;
   margin-bottom: 0;
-  transform: translateY(-130%);
+  transform: translateY(-100%);
 }
 .portfolio-work h3 {
   font-size: 3.5rem;
+  font-family: "Teko", sans-serif;
   line-height: 1.2;
   font-weight: 400;
 }
@@ -11187,7 +11212,7 @@ textarea.form-control-lg {
   text-align: left;
   margin-left: 0;
   margin-bottom: 0;
-  transform: translateY(-132%);
+  transform: translateY(-120%);
 }
 .portfolio-work button.nav-link {
   color: #fff;
