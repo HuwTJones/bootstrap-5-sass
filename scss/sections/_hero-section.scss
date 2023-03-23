@@ -14,6 +14,17 @@
     width:100%;
     background-color: $white;
     color:$primary;
+
+    h1{
+        -webkit-text-stroke: 3px $primary;
+    }
+    
+    span{
+        &.text-transparent{
+            color:$white;
+            -webkit-text-stroke: 3px $primary;
+        }
+    }
 }
 
 .intros{

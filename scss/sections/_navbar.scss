@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .menu{
-    background:$light;
+    background:$white;
     a{
         color:$indigo !important;
         font-weight:600;
@@ -17,23 +17,23 @@
     }
 
     .navbar-toggler{
-    background-color:$secondary;
-    border:1px solid $pink-700;
+        background-color:$secondary;
+        border:1px solid $pink-700;
    }
 
-    &.portfolio{
+    &.portfolio{        
 
         a{
-            font-family: 'Teko', sans-serif;
-            font-size:2rem;
+            font-family: 'Oswald', sans-serif;
+            font-size:1.2rem;
             color:$primary !important;
-            font-weight:300;
+            font-weight:500;
             margin: auto 0.5rem;
             border-bottom:2px solid transparent;
 
             &:hover{
                 color:$secondary !important;
-                font-weight:300;
+                font-weight:500;
                 border-bottom:2px solid $secondary;
             }
         }
@@ -42,6 +42,21 @@
             background-color:$primary;
             border:1px solid;
         }
+
+        .navbar-brand{
+            font-size:2rem;
+            font-weight:700;
+            -webkit-text-stroke: 0.5px $primary;
+            
+            span{
+                &.text-transparent{
+                    color:$white;
+                    -webkit-text-stroke: 0.5px $primary;
+                }
+            }
+        }
+
+        
     }
 
 }
