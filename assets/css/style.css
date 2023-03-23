@@ -11244,5 +11244,9 @@ textarea.form-control-lg {
   background-color: #fff;
   border-color: #153a59;
 }
+.portfolio-work .img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
