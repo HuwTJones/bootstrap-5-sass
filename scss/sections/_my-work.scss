@@ -1,31 +1,14 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
-.my-work-wrapper{
-    margin:2rem auto 4rem auto;
-
-    &.border-1{
-        border:4px solid $primary;
-        border-radius:8px;
-        padding:2rem;
-    }
-
-    &.border-2{
-        border:3px solid $primary;
-        border-radius:8px;
-        padding:2rem;
-        margin-bottom:6rem;
-
-    }
-}
-
 .portfolio-work{
+    padding:4rem 0;
     height:100%;
     width:100%;
     background-color: $white;
+    margin: 2rem auto 4rem auto;
+    // text-align:center;
     color:$primary;
-
-  
 
     button{
         &.nav-link{
