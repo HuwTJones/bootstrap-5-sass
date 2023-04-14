@@ -1,5 +1,40 @@
 @use '../custom' as *;
 
+  h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size:5rem;
+      line-height: 6rem;
+      font-weight: 600;
+  }
+
+  h2 {
+      font-size: 4rem;
+      font-family: 'Oswald', sans-serif;
+      line-height: 4.7rem;
+      font-weight: 500;
+
+      &.resting-title {
+          text-align: left;
+          margin-left: 0;
+          margin-bottom: 0;
+          transform: translateY(-118%);
+      }
+  }
+
+  h3 {
+      font-size: 3.5rem;
+      font-family: 'Oswald', sans-serif;
+      line-height: 1.2;
+      font-weight: 400;
+
+      &.resting-title {
+          text-align: left;
+          margin-left: 0;
+          margin-bottom: 0;
+          transform: translateY(-137%);
+      }
+  }
+
 .portfolio-title{
     color:$primary;
     span{
@@ -10,18 +45,18 @@
     &--intro{
         // display:block;
         font-family: 'Oswald', sans-serif;
-        font-size:10rem;
-        line-height:1;
+        font-size:7rem;
+        // line-height:7rem;
         font-weight:700;
         padding-bottom:0;
-        margin-bottom:0;
+        padding-left: 0;
     }
 
     &--description{
         display:inline-block;
-        padding-left:0.5rem;
+        padding-left:0.25rem;
         font-size:1.5rem;
-        font-weight:400;
+        font-weight:500;
         line-height:1.5;
     }
 
@@ -67,7 +102,7 @@
 .display-4{
 
     &--footer-title{
-        font-family:'Patua One', cursive;
+        font-family: 'Oswald', sans-serif;
         display:inline-block;
         // font-size:1.4rem;
         font-weight:400;

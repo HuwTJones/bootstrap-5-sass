@@ -10,9 +10,9 @@
     font-size:2rem;
 }
 
-.contact-us{
-    background-color: $primary;
-}
+// .contact-us{
+//     background-color: $primary;
+// }
 
 // Contact details styling
 .contact-holder{
@@ -21,7 +21,7 @@
     &__icon{
         font-size:2rem;
         color:$white;
-        padding-top:0.3rem;
+        // padding-top:0.3rem;
     }
 
     &__info{
@@ -56,6 +56,11 @@
         &:hover{
             text-decoration:underline;
             color:$secondary;
+        }
+
+        &:active{
+            text-decoration: none;
+            color: $secondary;
         }
     }
    }

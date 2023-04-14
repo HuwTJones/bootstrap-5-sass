@@ -10782,6 +10782,39 @@ textarea.form-control-lg {
   border: 1px solid #903053;
 }
 
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 4.7rem;
+  font-weight: 500;
+}
+h2.resting-title {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 0;
+  transform: translateY(-118%);
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+}
+h3.resting-title {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 0;
+  transform: translateY(-137%);
+}
+
 .portfolio-title {
   color: #153a59;
 }
@@ -10791,17 +10824,16 @@ textarea.form-control-lg {
 }
 .portfolio-title--intro {
   font-family: "Oswald", sans-serif;
-  font-size: 10rem;
-  line-height: 1;
+  font-size: 7rem;
   font-weight: 700;
   padding-bottom: 0;
-  margin-bottom: 0;
+  padding-left: 0;
 }
 .portfolio-title--description {
   display: inline-block;
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -10834,7 +10866,7 @@ textarea.form-control-lg {
 }
 
 .display-4--footer-title {
-  font-family: "Patua One", cursive;
+  font-family: "Oswald", sans-serif;
   display: inline-block;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -10886,129 +10918,19 @@ textarea.form-control-lg {
   -webkit-text-stroke: 0.5px #153a59;
 }
 
-.hero-section {
-  padding: 4rem 0;
-  height: 100%;
-  width: 100%;
-  background-color: #153a59;
-}
-
-.portfolio-hero-section {
-  padding: 6rem 0;
+.hero {
+  padding: 6rem 0 3rem 0;
   height: 100%;
   width: 100%;
   background-color: #fff;
   color: #153a59;
 }
-.portfolio-hero-section h1 {
+.hero h1 {
   -webkit-text-stroke: 3px #153a59;
 }
-.portfolio-hero-section span.text-transparent {
+.hero span.text-transparent {
   color: #fff;
   -webkit-text-stroke: 3px #153a59;
-}
-
-.intros .video-holder {
-  position: relative;
-}
-.intros .video-holder a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.intros .video-holder a span i {
-  font-size: 8rem;
-  color: #f0508a;
-}
-
-.why-learna-section {
-  padding: 1rem 0;
-  height: 100%;
-  width: 100%;
-  background-color: #f0508a;
-}
-
-.university-partners {
-  background-color: #153a59;
-  padding: 0 0 5rem 0;
-}
-.university-partners__logo-holder {
-  max-width: 100%;
-  height: 12rem;
-  text-align: center;
-  margin-top: 2rem;
-  position: relative;
-}
-.university-partners__logo-holder img {
-  height: 100%;
-}
-
-.our-courses {
-  padding: 4rem 0;
-  height: 100%;
-  width: 100%;
-  background-color: #f8f9fa;
-  text-align: center;
-  color: #153a59;
-}
-.our-courses button.nav-link {
-  color: #fff;
-  background-color: #153a59;
-}
-.our-courses button.nav-link.active {
-  color: #153a59;
-  background-color: #fff;
-  border-color: #153a59;
-}
-
-.testimonials {
-  position: relative;
-  padding: 0 0 5rem 0;
-  background-color: #f8f9fa;
-  color: #153a59;
-}
-.testimonials__slide {
-  height: auto;
-  text-align: center;
-  margin-bottom: 1rem auto;
-}
-.testimonials__slide figure {
-  padding: 2rem 1.25rem;
-}
-.testimonials__slide blockquote {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  height: 100%;
-  quotes: "“" "”" "‘" "’";
-}
-.testimonials__slide blockquote::before {
-  content: open-quote;
-}
-.testimonials__slide blockquote::after {
-  content: close-quote;
-}
-.testimonials__slide figcaption {
-  font-size: 1.6rem;
-  text-align: center;
-}
-.testimonials__trust {
-  height: auto;
-  text-align: center;
-  max-width: 100%;
-  text-align: center;
-  margin-top: 1rem auto;
-  position: relative;
-}
-.testimonials__trust img {
-  height: 100%;
-}
-.testimonials__trust .ratings {
-  font-size: 2.2rem;
-  padding-bottom: 1rem;
-}
-.testimonials__trust .reviews {
-  font-size: 1.2rem;
 }
 
 .footer {
@@ -11021,17 +10943,12 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 
-.contact-us {
-  background-color: #153a59;
-}
-
 .contact-holder {
   position: relative;
 }
 .contact-holder__icon {
   font-size: 2rem;
   color: #fff;
-  padding-top: 0.3rem;
 }
 .contact-holder__info--title {
   font-size: 1.2rem;
@@ -11058,6 +10975,10 @@ textarea.form-control-lg {
 }
 .footer-list li a:hover {
   text-decoration: underline;
+  color: #f0508a;
+}
+.footer-list li a:active {
+  text-decoration: none;
   color: #f0508a;
 }
 
@@ -11200,40 +11121,10 @@ textarea.form-control-lg {
 }
 
 .portfolio-work {
-  padding: 4rem 0;
   height: 100%;
   width: 100%;
   background-color: #fff;
   color: #153a59;
-}
-.portfolio-work h1 {
-  font-family: "Oswald", sans-serif;
-  line-height: 1.2;
-  font-weight: 700;
-}
-.portfolio-work h2 {
-  font-size: 6rem;
-  font-family: "Oswald", sans-serif;
-  line-height: 1.2;
-  font-weight: 500;
-}
-.portfolio-work h2.resting-title {
-  text-align: left;
-  margin-left: 0;
-  margin-bottom: 0;
-  transform: translateY(-118%);
-}
-.portfolio-work h3 {
-  font-size: 3.5rem;
-  font-family: "Oswald", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-}
-.portfolio-work h3.resting-title {
-  text-align: left;
-  margin-left: 0;
-  margin-bottom: 0;
-  transform: translateY(-137%);
 }
 .portfolio-work button.nav-link {
   color: #fff;

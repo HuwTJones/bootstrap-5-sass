@@ -20,46 +20,12 @@
 }
 
 .portfolio-work{
-    padding:4rem 0;
     height:100%;
     width:100%;
     background-color: $white;
-    // text-align:center;
     color:$primary;
 
-    h1{
-        font-family: 'Oswald', sans-serif;
-        line-height:1.2;
-        font-weight:700;
-    }
-
-    h2{
-        font-size:6rem;
-        font-family: 'Oswald', sans-serif;
-        line-height:1.2;
-        font-weight:500;
-
-        &.resting-title{
-            text-align:left;
-            margin-left:0;
-            margin-bottom:0;
-            transform:translateY(-118%);
-        }
-    }
-
-    h3{
-        font-size:3.5rem;
-        font-family: 'Oswald', sans-serif;
-        line-height:1.2;
-        font-weight:400;
-        
-        &.resting-title{
-            text-align:left;
-            margin-left:0;
-            margin-bottom:0;
-            transform:translateY(-137%);
-        }
-    }
+  
 
     button{
         &.nav-link{
