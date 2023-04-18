@@ -10919,7 +10919,7 @@ h3.resting-title {
 }
 
 .hero {
-  margin: 6rem 0 3rem 0;
+  margin: 10rem 0 3rem 0;
   height: 100%;
   width: 100%;
   background-color: #fff;
@@ -11108,6 +11108,11 @@ h3.resting-title {
 .portfolio-work .img-fluid {
   height: 100%;
   object-fit: cover;
+}
+.portfolio-work .project-type {
+  transform: translate(10%, -800%);
+  background-color: #367870;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

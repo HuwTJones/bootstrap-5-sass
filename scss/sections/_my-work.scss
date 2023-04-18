@@ -27,4 +27,10 @@
         height:100%;
         object-fit: cover;
     }
+
+    .project-type{
+        transform: translate(10%,-800%);
+        background-color: $primary-100;
+        color:$white;
+    }
 }
