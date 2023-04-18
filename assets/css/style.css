@@ -6,10 +6,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #153a59;
-  --bs-indigo: #0e263a;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #f0508a;
+  --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -70,7 +70,7 @@
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #214944;
   --bs-link-hover-color: #1a3a36;
-  --bs-code-color: #f0508a;
+  --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -10773,13 +10773,13 @@ textarea.form-control-lg {
   color: white;
   background-color: #AE2661;
   font-weight: 600;
-  border: 1px solid #903053;
+  border: 1px solid #801f4f;
 }
 .btn-secondary:hover {
   background-color: #fff;
   font-weight: 600;
   color: #AE2661;
-  border: 1px solid #903053;
+  border: 1px solid #801f4f;
 }
 
 h1 {
@@ -10876,7 +10876,7 @@ h3.resting-title {
   background: #fff;
 }
 .menu a {
-  color: #0e263a !important;
+  color: #6610f2 !important;
   font-weight: 600;
   padding: auto 0.7rem !important;
   margin: auto 0.4rem;
@@ -10889,7 +10889,7 @@ h3.resting-title {
 }
 .menu .navbar-toggler {
   background-color: #AE2661;
-  border: 2px solid #903053;
+  border: 2px solid #801f4f;
 }
 .menu.portfolio a {
   font-family: "Oswald", sans-serif;
@@ -10935,7 +10935,7 @@ h3.resting-title {
 
 .footer {
   padding-top: 1rem;
-  background-color: #0e263a;
+  background-color: #16322e;
   color: #fff;
 }
 
@@ -10985,7 +10985,7 @@ h3.resting-title {
 .speech-bubble {
   position: relative;
   border-radius: 1rem !important;
-  background-color: #0e263a;
+  background-color: #6610f2;
   color: #ffffff;
   padding: 15px;
 }
@@ -10998,7 +10998,7 @@ h3.resting-title {
   width: 0;
   height: 0;
   border: 1.781em solid transparent;
-  border-top-color: #0e263a;
+  border-top-color: #6610f2;
   border-bottom: 0;
   border-left: 0;
   margin-left: -0.891em;
