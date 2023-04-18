@@ -10889,7 +10889,7 @@ h3.resting-title {
 }
 .menu .navbar-toggler {
   background-color: #f0508a;
-  border: 1px solid #903053;
+  border: 2px solid #903053;
 }
 .menu.portfolio a {
   font-family: "Oswald", sans-serif;
@@ -10941,23 +10941,6 @@ h3.resting-title {
 
 .socials-holder {
   font-size: 2rem;
-}
-
-.contact-holder {
-  position: relative;
-}
-.contact-holder__icon {
-  font-size: 2rem;
-  color: #fff;
-}
-.contact-holder__info--title {
-  font-size: 1.2rem;
-  margin-bottom: 0.2rem;
-  color: #fff;
-}
-.contact-holder__info--subtitle {
-  font-size: 1rem;
-  color: #dee2e6;
 }
 
 .footer-list {
