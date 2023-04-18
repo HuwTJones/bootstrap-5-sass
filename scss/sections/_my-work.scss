@@ -29,7 +29,10 @@
     }
 
     .project-type{
-        transform: translate(10%,-800%);
+        // transform: translate(10%,-800%);
+        font-size:1.8rem;
+        border-radius:50%;
+        padding:12px;
         background-color: $primary-100;
         color:$white;
     }

@@ -11110,7 +11110,9 @@ h3.resting-title {
   object-fit: cover;
 }
 .portfolio-work .project-type {
-  transform: translate(10%, -800%);
+  font-size: 1.8rem;
+  border-radius: 50%;
+  padding: 12px;
   background-color: #367870;
   color: #fff;
 }
