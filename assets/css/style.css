@@ -10787,6 +10787,7 @@ h1 {
   font-size: 5rem;
   line-height: 6rem;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -10908,13 +10909,22 @@ h3.resting-title {
   border: 2px solid #841D4A;
 }
 .menu.portfolio .navbar-brand {
-  font-size: 2rem;
-  font-weight: 700;
-  -webkit-text-stroke: 0.5px #214944;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-bottom: none;
+  -webkit-text-stroke: 1.5px #214944;
+  margin-left: 0;
+  padding-left: 0;
+}
+.menu.portfolio .navbar-brand:hover {
+  font-weight: 600;
+  color: #214944 !important;
+  border-bottom: none;
 }
 .menu.portfolio .navbar-brand span.text-transparent {
   color: #fff;
-  -webkit-text-stroke: 0.5px #214944;
+  -webkit-text-stroke: 1.5px #214944;
 }
 
 .hero {

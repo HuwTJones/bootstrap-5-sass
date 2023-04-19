@@ -44,14 +44,25 @@
         }
 
         .navbar-brand{
-            font-size:2rem;
-            font-weight:700;
-            -webkit-text-stroke: 0.5px $primary;
+            font-size:1.8rem;
+            font-weight:600;
+            letter-spacing: 2px;
+            border-bottom: none;
+            -webkit-text-stroke: 1.5px $primary;
+            margin-left:0;
+            padding-left:0;
             
+            &:hover{
+                font-weight: 600;
+                color:$primary !important;
+                border-bottom:none;
+            }
+
+
             span{
                 &.text-transparent{
                     color:$white;
-                    -webkit-text-stroke: 0.5px $primary;
+                    -webkit-text-stroke: 1.5px $primary;
                 }
             }
         }
