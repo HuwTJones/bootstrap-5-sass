@@ -4,36 +4,23 @@
     padding-top:1rem;
     background-color: $primary-700;
     color:$white;
+
+    // Style the footer links
+        a {
+            text-decoration: none;
+            color: $white;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+    
+            &:active {
+                text-decoration: none;
+            }
+        }
 }
 
 .socials-holder{
     font-size:2rem;
 }
 
-// Style the footer links
-.footer-list{
-   display:block;
-   list-style-type:none;
-   position:relative;
-
-   li{
-    margin-bottom:0.5rem;
-    text-decoration:none;
-
-    a{
-        text-decoration:none;
-        color:$white;
-
-        &:hover{
-            text-decoration:underline;
-            color:$secondary;
-        }
-
-        &:active{
-            text-decoration: none;
-            color: $secondary;
-        }
-    }
-   }
-
-}
