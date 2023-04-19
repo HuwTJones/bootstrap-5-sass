@@ -10946,6 +10946,7 @@ h3.resting-title {
 .footer {
   padding-top: 1rem;
   background-color: #16322e;
+  font-weight: 500;
   color: #fff;
 }
 .footer a {
@@ -11088,7 +11089,7 @@ h3.resting-title {
 
 .portfolio-work {
   padding: 4rem 0;
-  min-height: 60vh;
+  min-height: 50vh;
   width: 100%;
   background-color: #fff;
   margin: 2rem auto 4rem auto;
