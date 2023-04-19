@@ -10795,6 +10795,7 @@ h2 {
   font-family: "Oswald", sans-serif;
   line-height: 4.7rem;
   font-weight: 500;
+  margin-left: 0.5rem;
 }
 h2.resting-title {
   text-align: left;
@@ -11109,8 +11110,10 @@ h3.resting-title {
 .portfolio-work .project-type {
   font-size: 1.8rem;
   border-radius: 50%;
-  padding: 12px;
-  background-color: #367870;
+  padding: 16px;
+  margin-left: 1.2rem;
+  background-color: none !important;
+  background-image: linear-gradient(160deg, #367870 0%, #16322e 99%);
   color: #fff;
 }
 

@@ -32,8 +32,11 @@
         // transform: translate(10%,-800%);
         font-size:1.8rem;
         border-radius:50%;
-        padding:12px;
-        background-color: $primary-100;
+        padding:16px;
+        margin-left:1.2rem;
+        background-color: none !important;
+        background-image: linear-gradient(160deg, $primary-100 0%, $primary-700 99%);
         color:$white;
     }
+
 }
