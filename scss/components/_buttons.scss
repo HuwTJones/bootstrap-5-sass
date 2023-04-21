@@ -1,6 +1,7 @@
 @use '../custom' as *;
 
 .btn-secondary{
+    font-family: 'Oswald', sans-serif;
     color:white;
     background-image: linear-gradient(140deg, $secondary-100 0%, $secondary-300 84%);
     // background-color: $secondary;

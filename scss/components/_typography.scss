@@ -1,7 +1,13 @@
 @use '../custom' as *;
 
+body{
+    font-family: "Poppins", sans-serif;
+    color:$primary-700;
+}
+
   h1 {
       font-family: 'Oswald', sans-serif;
+      color:$primary;
       font-size:5rem;
       line-height: 6rem;
       font-weight: 600;
@@ -9,26 +15,16 @@
   }
 
   h2 {
+      color: $primary;
       font-size: 4rem;
       font-family: 'Oswald', sans-serif;
-      line-height: 4.7rem;
       font-weight: 500;
-      margin-left: 0.5rem;
       margin-bottom:3rem;
   }
 
   h3 {
-      font-size: 3.5rem;
       font-family: 'Oswald', sans-serif;
-      line-height: 1.2;
       font-weight: 400;
-
-      &.resting-title {
-          text-align: left;
-          margin-left: 0;
-          margin-bottom: 0;
-          transform: translateY(-137%);
-      }
   }
 
 .portfolio-title{
@@ -42,7 +38,6 @@
         // display:block;
         font-family: 'Oswald', sans-serif;
         font-size:7rem;
-        // line-height:7rem;
         font-weight:700;
         padding-bottom:0;
         padding-left: 0;
@@ -51,57 +46,13 @@
     &--description{
         display:inline-block;
         padding-left:0.25rem;
-        font-size:1.5rem;
+        font-size:2rem;
         font-weight:500;
-        line-height:1.5;
     }
 
 }
 
-
-.display-2{
-    margin-bottom:1rem;
-
-    &--intro{
-        font-family:'Patua One', cursive;
-        display:inline-block;
-        // font-size:3rem;
-        font-weight:400;
-    }
-
-    &--description{
-        font-size:1.8rem;
-        font-weight:400;
-        display:block;
-        margin: 1rem auto;
-    }
-}
-
-.display-3{
-
-    &--section-title{
-        font-family:'Patua One', cursive;
-        display:inline-block;
-        // font-size: 2rem;
-        font-weight:400;
-        margin-bottom:1rem;
-    }
-
-    &--description{
-        font-size:1.6rem;
-        font-weight:400;
-        display:block;
-        margin-bottom:1.6rem;
-    }
-}
-
-.display-4{
-
-    &--footer-title{
-        font-family: 'Oswald', sans-serif;
-        display:inline-block;
-        // font-size:1.4rem;
-        font-weight:400;
-        margin-bottom:1rem;
-    }
+ul li,
+ol li {
+    margin-bottom: 0.5rem;
 }
