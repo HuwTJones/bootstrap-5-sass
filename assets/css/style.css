@@ -10890,17 +10890,15 @@ ol li {
   -webkit-text-stroke: 1.5px #214944;
 }
 
-.hero {
+.hero-section {
   margin: 10rem 0 3rem 0;
-  height: 100%;
-  width: 100%;
   background-color: #fff;
   color: #214944;
 }
-.hero h1 {
+.hero-section h1 {
   -webkit-text-stroke: 3px #214944;
 }
-.hero span.text-transparent {
+.hero-section span.text-transparent {
   color: #fff;
   -webkit-text-stroke: 3px #214944;
 }
