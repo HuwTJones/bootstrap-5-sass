@@ -10771,7 +10771,7 @@ textarea.form-control-lg {
 }
 .btn-secondary {
   color: white;
-  background-image: linear-gradient(160deg, #D33479 0%, #AE2661 99%);
+  background-image: linear-gradient(140deg, #D33479 0%, #BC2969 84%);
   font-weight: 600;
   border: 1px solid #761A42;
 }
@@ -11109,12 +11109,12 @@ h3.resting-title {
   object-fit: cover;
 }
 .portfolio-work .project-type {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   border-radius: 50%;
-  padding: 16px;
+  padding: 1rem;
   margin-left: 1.2rem;
   background-color: none !important;
-  background-image: linear-gradient(160deg, #367870 0%, #16322e 99%);
+  background-image: linear-gradient(140deg, #367870 0%, #26554f 84%);
   color: #fff;
 }
 
