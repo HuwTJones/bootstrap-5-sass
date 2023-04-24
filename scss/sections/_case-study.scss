@@ -10,20 +10,12 @@ $emotional-sad: #dc3545;
 $emotional-happy: #198754;
 $emotional-mid: #fd7e14;
 
-// .case-intro{
-//     padding:6rem 0 3rem 0;
-//     height:100%;
-//     width:100%;
-//     color:$primary;
-//     background-color: $light;
-// }
-
     /*speech bubble styling*/
 
     .speech-bubble {
     position: relative;
     border-radius: 1rem !important;
-    background-color: $indigo;
+    background-color: $secondary;
     color: #ffffff;
     padding: 15px;
     }
@@ -36,7 +28,7 @@ $emotional-mid: #fd7e14;
         width: 0;
         height: 0;
         border: 1.781em solid transparent;
-        border-top-color: $indigo;
+        border-top-color: $secondary;
         border-bottom: 0;
         border-left: 0;
         margin-left: -0.891em;
@@ -72,7 +64,7 @@ $emotional-mid: #fd7e14;
         border-bottom-right-radius: 8px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-        background-color: $green-400;
+        background-color: $secondary-100;
         position: relative;
         overflow: hidden;
       }

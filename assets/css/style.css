@@ -10935,7 +10935,7 @@ ol li {
 .speech-bubble {
   position: relative;
   border-radius: 1rem !important;
-  background-color: #6610f2;
+  background-color: #AE2661;
   color: #ffffff;
   padding: 15px;
 }
@@ -10948,7 +10948,7 @@ ol li {
   width: 0;
   height: 0;
   border: 1.781em solid transparent;
-  border-top-color: #6610f2;
+  border-top-color: #AE2661;
   border-bottom: 0;
   border-left: 0;
   margin-left: -0.891em;
@@ -10984,7 +10984,7 @@ ol li {
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #479f76;
+  background-color: #D33479;
   position: relative;
   overflow: hidden;
 }
