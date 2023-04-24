@@ -10836,6 +10836,13 @@ ol li {
   margin-bottom: 0.5rem;
 }
 
+.tldr {
+  color: #AE2661;
+  font-size: 1.2rem;
+  border: #AE2661 6px solid !important;
+  border-radius: 8px;
+}
+
 .menu {
   background: #fff;
 }
