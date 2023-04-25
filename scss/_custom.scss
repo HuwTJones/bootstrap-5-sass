@@ -39,5 +39,16 @@ $black:    #000;
 $primary:       $primary-500;
 $secondary:     $secondary-400;
 
+// User journey styles
+$journey-step-1: #0097a7;
+$journey-step-2: #9c27b0;
+$journey-step-3: #5f4339;
+$journey-step-4: #3f51b5;
+$journey-step-5: #d63384;
+$journey-step-6: #4caf50;
+$emotional-sad: #dc3545;
+$emotional-happy: #198754;
+$emotional-mid: #fd7e14;
+
 //Import Bootstrap 5
 @import"../node_modules/bootstrap/scss/bootstrap.scss";

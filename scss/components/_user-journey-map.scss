@@ -1,0 +1,53 @@
+@use '../custom' as *;
+
+ // /*user journey map and story*/
+
+
+ .journey-step-1 {
+   background-color: $journey-step-1;
+ }
+
+ .journey-step-2 {
+   background-color: $journey-step-2;
+ }
+
+ .journey-step-3 {
+   background-color: $journey-step-3;
+ }
+
+ .journey-step-4 {
+   background-color: $journey-step-4;
+ }
+
+ .journey-step-5 {
+   background-color: $journey-step-5;
+ }
+
+ .journey-step-6 {
+   background-color: $journey-step-6;
+ }
+
+ .user-journey{
+   .chevron-section {
+       color: white;
+     }
+   .card-footer {
+       color: #fff;
+   }
+
+   .bi{
+       font-size:1.4rem;
+   }
+
+       .meter .sad {
+         background-color: $emotional-sad;
+       }
+
+       .meter .happy {
+         background-color: $emotional-happy;
+       }
+
+       .meter .mid {
+         background-color: $emotional-mid;
+       }
+ }

@@ -5,11 +5,12 @@
 @use 'components/buttons';
 @use 'components/mixins';
 @use 'components/typography';
+@use 'components/user-persona';
+@use 'components/user-journey-map';
 @use 'components/tldr-aside';
 
 // Import the sections
 @use 'sections/navbar';
 @use 'sections/hero-section';
 @use 'sections/footer';
-@use 'sections/case-study';
 @use 'sections/my-work';
