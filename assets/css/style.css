@@ -10983,7 +10983,12 @@ ol li {
 .donut-chart .donut-segment {
   transform-origin: center;
   stroke: #AE2661;
-  animation: donut-segment 2s;
+}
+.donut-chart .donut-segment-1 {
+  animation: donut-segment-1 2s;
+}
+.donut-chart .donut-segment-2 {
+  animation: donut-segment-2 2s;
 }
 .donut-chart .donut-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -11011,12 +11016,20 @@ ol li {
     opacity: 1;
   }
 }
-@keyframes donut-segment {
+@keyframes donut-segment-1 {
   0% {
     stroke-dasharray: 0, 100;
   }
   100% {
     stroke-dasharray: 62.5, 37.5;
+  }
+}
+@keyframes donut-segment-2 {
+  0% {
+    stroke-dasharray: 0, 100;
+  }
+  100% {
+    stroke-dasharray: 90, 10;
   }
 }
 .tldr {

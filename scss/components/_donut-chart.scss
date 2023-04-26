@@ -12,14 +12,21 @@
 
     .donut-segment{
         transform-origin:center;
-        stroke:$secondary;
-        animation: donut-segment 2s;
+        stroke:$secondary;  
     }
 
-        .donut-text {
-            font-family: Arial, Helvetica, sans-serif;
-            fill: $primary;
-        }
+    .donut-segment-1{
+        animation: donut-segment-1 2s;
+    }
+
+    .donut-segment-2 {
+        animation: donut-segment-2 2s;
+    }
+
+    .donut-text {
+        font-family: Arial, Helvetica, sans-serif;
+        fill: $primary;
+    }
         
     .donut-label {
             font-size: 0.5rem;
@@ -48,12 +55,22 @@
         }
 }
 
-@keyframes donut-segment {
+@keyframes donut-segment-1 {
     0% {
         stroke-dasharray: 0, 100;
     }
 
     100% {
         stroke-dasharray: 62.5, 37.5;
+    }
+}
+
+@keyframes donut-segment-2 {
+    0% {
+        stroke-dasharray: 0, 100;
+    }
+
+    100% {
+        stroke-dasharray: 90, 10;
     }
 }
