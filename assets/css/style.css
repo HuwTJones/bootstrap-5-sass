@@ -10944,6 +10944,23 @@ ol li {
 .user-journey .bi {
   font-size: 1.4rem;
 }
+.user-journey .meter {
+  height: 1vh;
+  position: relative;
+  background: #ccc;
+  border-radius: 25px;
+}
+.user-journey .meter > span {
+  display: block;
+  height: 1vh;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #214944;
+  position: relative;
+  overflow: hidden;
+}
 .user-journey .meter .sad {
   background-color: #dc3545;
 }

@@ -39,15 +39,36 @@
        font-size:1.4rem;
    }
 
-       .meter .sad {
-         background-color: $emotional-sad;
-       }
-
-       .meter .happy {
-         background-color: $emotional-happy;
-       }
-
-       .meter .mid {
-         background-color: $emotional-mid;
-       }
+     .meter {
+       height: 1vh;
+       position: relative;
+       background: #ccc;
+       border-radius: 25px;
+     }
+  
+     .meter>span {
+       display: block;
+       height: 1vh;
+       border-top-right-radius: 8px;
+       border-bottom-right-radius: 8px;
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
+       background-color: $primary;
+       position: relative;
+       overflow: hidden;
+     }
+  
+     .meter .sad {
+       background-color: $emotional-sad;
+     }
+  
+     .meter .happy {
+       background-color: $emotional-happy;
+     }
+  
+     .meter .mid {
+       background-color: $emotional-mid;
+     }
  }
+
+    
