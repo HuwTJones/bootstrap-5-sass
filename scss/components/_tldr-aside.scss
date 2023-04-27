@@ -5,4 +5,9 @@
     font-size:1.2rem;
     border: $secondary 6px solid !important;
     border-radius:8px;
+    width:75%;
+
+    @include media-breakpoint-down(lg) {
+        width:100%;
+    }
 }

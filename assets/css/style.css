@@ -11059,6 +11059,12 @@ ol li {
   font-size: 1.2rem;
   border: #AE2661 6px solid !important;
   border-radius: 8px;
+  width: 75%;
+}
+@media (max-width: 991.98px) {
+  .tldr {
+    width: 100%;
+  }
 }
 
 .menu {
