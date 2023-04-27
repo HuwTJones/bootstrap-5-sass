@@ -11134,7 +11134,14 @@ ol li {
   -webkit-text-stroke: 3px #214944;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
+  margin-top: auto;
   padding-top: 1rem;
   background-color: #16322e;
   font-weight: 500;

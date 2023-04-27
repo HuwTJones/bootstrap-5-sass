@@ -1,6 +1,14 @@
 @use '../custom' as *;
 
+// ensure footer remains at the bottom of the page
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
+    margin-top:auto;
     padding-top:1rem;
     background-color: $primary-700;
     font-weight:500;
