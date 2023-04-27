@@ -23,20 +23,4 @@
         }
     }
 
-    .img-fluid{
-        height:100%;
-        object-fit: cover;
-    }
-
-    .project-type{
-        // transform: translate(10%,-800%);
-        font-size:1.4rem;
-        border-radius:50%;
-        padding:1rem;
-        margin-left:1.2rem;
-        background-color: none !important;
-        background-image: linear-gradient(140deg, $primary-100 0%, $primary-400 84%);
-        color:$white;
-    }
-
 }
