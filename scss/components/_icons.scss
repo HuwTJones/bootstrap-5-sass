@@ -1,0 +1,15 @@
+@use '../custom' as *;
+
+  .hero-section h1 {
+      .title-icon {
+          font-size: 7rem;
+          -webkit-text-stroke:0 !important;
+      }
+  }
+
+  h2 {
+      .title-icon {
+          font-size: 5rem;
+        -webkit-text-stroke: 0 !important;
+      }
+  }
