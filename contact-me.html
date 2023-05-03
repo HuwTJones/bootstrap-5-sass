@@ -82,32 +82,59 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="card contact-card shadow">
-              <form>
+              <form class="needs-validation" action="" novalidate>
                 <div class="mb-4">
-                  <label for="exampleInputEmail1" class="form-label"
+                  <label for="InputName" class="form-label">Your name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="InputName"
+                    autocomplete="name"
+                    aria-describedby="nameHelp"
+                    required
+                  />
+                  <div id="nameHelp" class="form-text">
+                    Please enter your name.
+                  </div>
+                  <div class="invalid-feedback">
+                    Don't forget to enter your name!
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <label for="InputEmail" class="form-label"
                     >Email address</label
                   >
                   <input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="InputEmail"
+                    autocomplete="email"
                     aria-describedby="emailHelp"
+                    required
                   />
                   <div id="emailHelp" class="form-text">
                     I'll never share your email with anyone else!
                   </div>
+                  <div class="invalid-feedback">
+                    Please enter a valid email address.
+                  </div>
                 </div>
                 <div class="mb-4">
-                  <label for="exampleFormControlTextarea1" class="form-label"
+                  <label for="InputYourMessage" class="form-label"
                     >Your message</label
                   >
                   <textarea
                     class="form-control"
-                    id="exampleFormControlTextarea1"
+                    id="InputYourMessage"
                     rows="3"
+                    required
                   ></textarea>
                   <div id="messageHelp" class="form-text">
-                    Please enter your message in the box above.
+                    Please enter your message in the box above, constructive
+                    feedback is always welcome : ).
+                  </div>
+                  <div class="invalid-feedback">
+                    Don't forget to leave a message!
                   </div>
                 </div>
                 <button type="submit" class="btn btn-lg btn-secondary">
@@ -173,5 +200,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
