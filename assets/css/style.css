@@ -11106,8 +11106,8 @@ h2 .title-icon {
 }
 
 .title-icon {
-  border: 3px solid #214944;
-  border-radius: 50%;
+  border: 5px solid #214944;
+  border-radius: 8px;
   padding: 0.5rem;
   margin-right: 1rem;
 }
