@@ -10957,6 +10957,10 @@ ol li {
   padding: 1.5rem;
 }
 
+.thanks-holder {
+  min-height: 50vh;
+}
+
 .journey-step-1 {
   background-color: #0097a7;
 }
