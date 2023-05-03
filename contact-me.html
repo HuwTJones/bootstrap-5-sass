@@ -87,11 +87,32 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="card contact-card shadow">
-              <form class="needs-validation" action="" novalidate>
+              <form
+                class="needs-validation"
+                action="https://api.web3forms.com/submit"
+                method="post"
+                novalidate
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="4c03ae9c-4f7f-432c-b8f7-d46423b0827c"
+                />
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="New Submission from Web3Forms"
+                />
+                <input
+                  type="hidden"
+                  name="redirect"
+                  value="https://web3forms.com/success"
+                />
                 <div class="field-holder mb-4">
                   <label for="InputName" class="form-label">Your name</label>
                   <input
                     type="text"
+                    name="name"
                     class="form-control"
                     id="InputName"
                     autocomplete="name"
@@ -111,6 +132,7 @@
                   >
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
                     id="InputEmail"
                     autocomplete="email"
@@ -131,6 +153,7 @@
                   <textarea
                     class="form-control"
                     id="InputYourMessage"
+                    name="message"
                     rows="3"
                     required
                   ></textarea>
