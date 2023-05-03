@@ -10,6 +10,13 @@
   h2 {
       .title-icon {
           font-size: 5rem;
-        -webkit-text-stroke: 0 !important;
+          -webkit-text-stroke: 0 !important;
       }
+  }
+
+  .title-icon{
+    border: 3px solid $primary;
+    border-radius:50%;
+    padding:0.5rem;
+    margin-right:1rem; 
   }
