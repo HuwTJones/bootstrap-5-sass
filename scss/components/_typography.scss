@@ -19,15 +19,17 @@ body{
   }
 
   h2 {
-      color: $primary;
       font-size: 4rem;
       font-family: 'Oswald', sans-serif;
       font-weight: 500;
       margin-bottom:3rem;
+      vertical-align: middle;
+  }
 
-    //   .title-icon{
-    //     font-size:4.4rem;
-    //   }
+  .tldr{
+    h2{
+        color: $secondary;
+    }
   }
 
   h3 {

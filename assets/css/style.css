@@ -10798,11 +10798,15 @@ h1 {
 }
 
 h2 {
-  color: #214944;
   font-size: 4rem;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   margin-bottom: 3rem;
+  vertical-align: middle;
+}
+
+.tldr h2 {
+  color: #AE2661;
 }
 
 h3 {
@@ -11095,21 +11099,31 @@ ol li {
   }
 }
 
+.hero-section h1 {
+  display: flex;
+  align-items: center;
+}
 .hero-section h1 .title-icon {
-  font-size: 7rem;
-  -webkit-text-stroke: 0 !important;
-}
-
-h2 .title-icon {
-  font-size: 5rem;
-  -webkit-text-stroke: 0 !important;
-}
-
-.title-icon {
   border: 5px solid #214944;
+  border-radius: 8px;
+  -webkit-text-stroke: 0 !important;
+}
+
+.profile-section h2 {
+  display: flex;
+  align-items: center;
+}
+.profile-section h2 .cv-icon {
+  -webkit-text-stroke: 0 !important;
+  border: 5px solid;
   border-radius: 8px;
   padding: 0.5rem;
   margin-right: 1rem;
+}
+
+.text-white .cv-icon {
+  background-color: #214944;
+  color: white;
 }
 
 .menu {
