@@ -3,15 +3,13 @@
 .menu{
     background:$white;
     a{
-        // color:$indigo !important;
         font-weight:600;
-        padding: auto 0.7rem !important;
-        margin: auto 0.4rem;
+        padding: auto 0.5rem !important;
+        margin: auto 0.5rem;
         border-bottom:2px solid transparent;
 
          &:hover{
-            color:$secondary !important;
-            font-weight:600;
+            color:$secondary !important;           // 
             border-bottom:2px solid $secondary;
         }
     }
@@ -25,7 +23,7 @@
 
         a{
             font-family: 'Oswald', sans-serif;
-            font-size:1.2rem;
+            font-size:1.25rem;
             color:$primary !important;
             font-weight:500;
             margin: auto 0.5rem;
@@ -33,7 +31,6 @@
 
             &:hover{
                 color:$secondary !important;
-                font-weight:500;
                 border-bottom:2px solid $secondary;
             }
         }

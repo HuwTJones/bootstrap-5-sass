@@ -7,23 +7,16 @@ body{
 
   h1 {
       font-family: 'Oswald', sans-serif;
-      color:$primary;
       font-size:5rem;
       line-height: 6rem;
       font-weight: 600;
-      letter-spacing: 2;
-
-    // .title-icon {
-    //         font-size: 5rem;
-    //     }
   }
 
   h2 {
-      font-size: 4rem;
       font-family: 'Oswald', sans-serif;
+      font-size: 4rem;
       font-weight: 500;
       margin-bottom:3rem;
-      vertical-align: middle;
   }
 
   .tldr{
@@ -38,20 +31,23 @@ body{
       font-weight: 400;
   }
 
+  h4{
+    font-size: 2rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+  }
+
 .portfolio-title{
-    color:$primary;
     span{
         margin-bottom:0;
         padding-top:0;
     }
 
     &--intro{
-        // display:block;
         font-family: 'Oswald', sans-serif;
         font-size:7rem;
         font-weight:700;
         padding-bottom:0;
-        padding-left: 0;
 
         @include media-breakpoint-down(md) {
                 font-size: 6rem;
@@ -65,7 +61,7 @@ body{
     &--description{
         display:inline-block;
         padding-left:0.25rem;
-        font-size:2rem;
+        font-size:1.5rem;
         font-weight:500;
 
         @include media-breakpoint-down(md) {

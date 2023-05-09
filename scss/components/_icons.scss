@@ -11,42 +11,16 @@
           margin-right: 1rem;
       }
 
-            .cv-icon {
-              // font-size: 3rem;
-              -webkit-text-stroke: 0 !important;
-              border: 5px solid;
-              border-radius: 8px;
-              padding: 0.5rem;
-              margin-right: 1rem;
+      .cv-icon {
+          -webkit-text-stroke: 0 !important;
+          border: 5px solid;
+          border-radius: 8px;
+          padding: 0.5rem;
+          margin-right: 1rem;
 
-              &.text-white{
-                  background-color: $primary;
-                  color: white;
-              }
-            }
+          &.text-white{
+            background-color: $primary;
+            color: white;
+          }
+      }
   }
-
-  // .profile-section h2 {
-  //     display:flex;
-  //     align-items:center;
-
-  //     .cv-icon {
-  //         // font-size: 3rem;
-  //         -webkit-text-stroke: 0 !important;
-  //         border: 5px solid;
-  //         border-radius: 8px;
-  //         padding: 0.5rem;
-  //         margin-right: 1rem;
-  //       }
-
-  //           .title-icon {
-  //             border: 5px solid $primary;
-  //             border-radius: 8px;
-  //             -webkit-text-stroke: 0 !important;
-  //           }
-  // }
-
-  // .text-white .cv-icon{
-  //   background-color: $primary;
-  //   color:white;
-  // }

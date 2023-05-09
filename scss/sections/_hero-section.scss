@@ -4,16 +4,4 @@
 .hero-section{
     margin:10rem 0 3rem 0;
     background-color: $white;
-    color:$primary;
-
-    h1{
-        -webkit-text-stroke: 3px $primary;
-    }
-    
-    span{
-        &.text-transparent{
-            color:$white;
-            -webkit-text-stroke: 3px $primary;
-        }
-    }
 }
