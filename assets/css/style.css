@@ -11099,29 +11099,24 @@ ol li {
   }
 }
 
-.hero-section h1 {
+h1, h2 {
   display: flex;
   align-items: center;
 }
-.hero-section h1 .title-icon {
+h1 .title-icon, h2 .title-icon {
   border: 5px solid #214944;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
+  margin-right: 1rem;
 }
-
-.profile-section h2 {
-  display: flex;
-  align-items: center;
-}
-.profile-section h2 .cv-icon {
+h1 .cv-icon, h2 .cv-icon {
   -webkit-text-stroke: 0 !important;
   border: 5px solid;
   border-radius: 8px;
   padding: 0.5rem;
   margin-right: 1rem;
 }
-
-.text-white .cv-icon {
+h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   background-color: #214944;
   color: white;
 }
