@@ -1,11 +1,14 @@
 @use '../custom' as *;
 
   h1, h2 {
+      
+    &:not(.portfolio-title--intro){
       display:flex;
       align-items:center;
+    }
 
       .title-icon {
-          border: 5px solid $primary;
+          border: 5px solid;
           border-radius: 8px;
           -webkit-text-stroke:0 !important;
           margin-right: 1rem;

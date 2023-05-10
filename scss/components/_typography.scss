@@ -51,11 +51,18 @@ body{
 
         @include media-breakpoint-down(md) {
                 font-size: 6rem;
-            }
+        }
         
-                @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(sm) {
                     font-size: 5.5rem;
-                }
+        }
+
+        span {
+            &.text-transparent {
+                color: $white;
+                -webkit-text-stroke: 3px $primary-700;
+            }
+        }
     }
 
     &--description{
