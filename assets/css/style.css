@@ -10796,13 +10796,13 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
   font-weight: 500;
-  margin-bottom: 3rem;
 }
-@media (max-width: 767.98px) {
+@media (min-width: 1200px) {
   h2 {
-    font-size: 3rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -10811,13 +10811,13 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
@@ -11104,14 +11104,16 @@ ol li {
 }
 .tldr {
   color: #AE2661;
-  font-size: 1.2rem;
-  border: #AE2661 6px solid !important;
+  font-size: 1rem;
+  border: #AE2661 4px solid !important;
   border-radius: 8px;
-  width: 75%;
+  width: 100%;
+  padding: 1rem !important;
 }
-@media (max-width: 991.98px) {
+@media (min-width: 992px) {
   .tldr {
-    width: 100%;
+    font-size: 1.25rem;
+    width: 75%;
   }
 }
 
