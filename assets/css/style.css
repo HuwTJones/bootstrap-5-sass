@@ -11153,8 +11153,14 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   border-bottom: 2px solid #AE2661;
 }
 .menu .navbar-toggler {
-  background-color: #AE2661;
-  border: 2px solid #801f4f;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.menu .navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+.menu .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(22, 50, 46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .menu.portfolio a {
   font-family: "Oswald", sans-serif;
@@ -11168,18 +11174,12 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   color: #AE2661 !important;
   border-bottom: 2px solid #AE2661;
 }
-.menu.portfolio .navbar-toggler {
-  background-color: #AE2661;
-  border: 2px solid #841D4A;
-}
 .menu.portfolio .navbar-brand {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: 2px;
-  border-bottom: none;
-  -webkit-text-stroke: 1.5px #214944;
   margin-left: 0;
-  padding-left: 0;
+  border-bottom: none;
+  -webkit-text-stroke: 1px #16322e;
 }
 .menu.portfolio .navbar-brand:hover {
   font-weight: 600;
@@ -11188,7 +11188,6 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 }
 .menu.portfolio .navbar-brand span.text-transparent {
   color: #fff;
-  -webkit-text-stroke: 1.5px #214944;
 }
 
 .hero-section {
