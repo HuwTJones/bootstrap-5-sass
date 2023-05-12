@@ -2,14 +2,12 @@
 
 .tldr{
     color:$secondary;
-    font-size:1rem;
-    border: $secondary 4px solid !important;
+    border: $secondary 0.25rem solid !important;
     border-radius:8px;
     width:100%;
     padding: 1rem !important;
 
     @include media-breakpoint-up(lg) {
-        font-size:1.25rem;
         width:75%;
     }
 }

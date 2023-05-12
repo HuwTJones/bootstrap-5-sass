@@ -10783,48 +10783,38 @@ textarea.form-control-lg {
   border: 1px solid #841D4A;
 }
 
-body {
+html {
   font-family: "Poppins", sans-serif;
   color: #16322e;
+  font-size: calc(15px + 0.390625vw);
 }
 
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 5rem;
+  line-height: 5rem;
   font-weight: 600;
 }
 
 h2 {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
-  line-height: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-weight: 500;
-}
-@media (min-width: 576px) {
-  h2 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 3rem;
-  }
-}
-@media (min-width: 1200px) {
-  h2 {
-    font-size: 3rem;
-    line-height: 3rem;
-    margin-bottom: 3rem;
-  }
 }
 
 h3 {
   font-size: 1.5rem;
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
 h4 {
   font-size: 1.25rem;
-  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -10838,29 +10828,9 @@ h4 {
 }
 .portfolio-title--intro {
   font-family: "Oswald", sans-serif;
-  font-size: 5rem;
-  line-height: 4.5rem;
   font-weight: 700;
   padding-bottom: 0;
-  -webkit-text-stroke: 2px #16322e;
-}
-@media (min-width: 576px) {
-  .portfolio-title--intro {
-    font-size: 6rem;
-    line-height: 5.25rem;
-  }
-}
-@media (min-width: 768px) {
-  .portfolio-title--intro {
-    font-size: 8rem;
-    line-height: 7rem;
-  }
-}
-@media (min-width: 992px) {
-  .portfolio-title--intro {
-    font-size: 10rem;
-    line-height: 9rem;
-  }
+  -webkit-text-stroke: 0.05rem #16322e;
 }
 .portfolio-title--intro span.text-transparent {
   color: #fff;
@@ -10868,18 +10838,7 @@ h4 {
 .portfolio-title--description {
   display: inline-block;
   padding-left: 0.25rem;
-  font-size: 2rem;
   font-weight: 500;
-}
-@media (max-width: 767.98px) {
-  .portfolio-title--description {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 575.98px) {
-  .portfolio-title--description {
-    font-size: 1rem;
-  }
 }
 
 ul li,
@@ -11116,15 +11075,13 @@ ol li {
 }
 .tldr {
   color: #AE2661;
-  font-size: 1rem;
-  border: #AE2661 4px solid !important;
+  border: #AE2661 0.25rem solid !important;
   border-radius: 8px;
   width: 100%;
   padding: 1rem !important;
 }
 @media (min-width: 992px) {
   .tldr {
-    font-size: 1.25rem;
     width: 75%;
   }
 }
