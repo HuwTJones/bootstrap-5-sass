@@ -10841,7 +10841,7 @@ h5 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   padding-bottom: 0;
-  -webkit-text-stroke: 0.05rem #16322e;
+  -webkit-text-stroke: 0.1rem #16322e;
 }
 .portfolio-title--intro span.text-transparent {
   color: #fff;
@@ -11142,7 +11142,7 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   font-weight: 600;
   margin-left: 0;
   border-bottom: none;
-  -webkit-text-stroke: 0.05rem #16322e;
+  -webkit-text-stroke: 0.0275rem #16322e;
 }
 .menu .navbar-brand:hover {
   font-weight: 600;
