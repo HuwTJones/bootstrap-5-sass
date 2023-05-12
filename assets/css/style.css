@@ -10796,30 +10796,40 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
+}
+@media (min-width: 576px) {
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }
 }
 @media (min-width: 1200px) {
   h2 {
+    font-size: 3rem;
+    line-height: 3rem;
     margin-bottom: 3rem;
   }
 }
 
-.tldr h2 {
-  color: #AE2661;
-}
-
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
+}
+
+.tldr h2 {
+  color: #AE2661;
 }
 
 .portfolio-title span {
@@ -11124,17 +11134,17 @@ h1:not(.portfolio-title--intro), h2:not(.portfolio-title--intro) {
   align-items: center;
 }
 h1 .title-icon, h2 .title-icon {
-  border: 5px solid;
+  border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 h1 .cv-icon, h2 .cv-icon {
-  -webkit-text-stroke: 0 !important;
-  border: 5px solid;
+  border: 3px solid;
   border-radius: 8px;
+  -webkit-text-stroke: 0 !important;
   padding: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   background-color: #214944;
