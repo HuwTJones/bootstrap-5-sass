@@ -28,8 +28,14 @@
     
             &:hover {
                 font-weight: 600;
-                color: $primary !important;
+                color: white !important;
                 border-bottom: none;
+
+                span {
+                        &.text-transparent {
+                            color: $primary-700;
+                        }
+                    }
             }
     
     
