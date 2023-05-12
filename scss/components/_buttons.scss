@@ -6,6 +6,7 @@
     background-image: linear-gradient(140deg, $secondary-100 0%, $secondary-300 84%);
     // background-color: $secondary;
     font-weight:600;
+    font-size:1rem;
     border: 1px solid $secondary-800;
 
     &:hover{
@@ -19,6 +20,5 @@
 .contact-btn{
     padding: 0.25rem 1rem !important;
     font-weight:400;
-    font-size:1rem;
     margin:auto 1rem;
 }
