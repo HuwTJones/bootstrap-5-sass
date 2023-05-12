@@ -11137,6 +11137,7 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 }
 .menu .navbar-brand {
   color: #16322e !important;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-left: 0;
   border-bottom: none;
