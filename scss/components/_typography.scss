@@ -2,12 +2,13 @@
 
 html{
     font-family: "Poppins", sans-serif;
-    color:$primary-700;
+    color:$primary-900;
     font-size: calc(15px + 0.390625vw);
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    color: $primary-700;
     font-size:5rem;
     line-height:5rem;
     font-weight: 600;
@@ -18,6 +19,10 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1.25rem;
     font-weight: 500;
+
+    &:not(.bg-primary h2, .tldr h2){
+        color: $primary-700;
+    }
   }
 
 h3 {
@@ -51,6 +56,7 @@ h5{
 
     &--intro{
         font-family: 'Oswald', sans-serif;
+        // color: $primary-700 !important;
         font-weight:700;
         padding-bottom:0;
         -webkit-text-stroke: 0.05rem $primary-700;

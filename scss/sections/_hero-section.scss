@@ -4,8 +4,4 @@
 .hero-section{
     margin-top:6rem;
     background-color: $white;
-
-        @include media-breakpoint-up(xxl) {
-            margin: 10rem 0 3rem 0;
-        }
 }
