@@ -11167,7 +11167,7 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   }
   .menu .navbar-nav .nav-link:hover, .menu .navbar-nav .nav-link:active {
     background-color: #AE2661;
-    color: white;
+    color: white !important;
   }
 }
 @media (max-width: 991.98px) {

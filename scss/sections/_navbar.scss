@@ -64,7 +64,7 @@
             &:hover,
             &:active {
                 background-color: $secondary;
-                color: white;
+                color: white !important;
             }
         }
     }
