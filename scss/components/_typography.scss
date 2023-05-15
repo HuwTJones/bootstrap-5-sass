@@ -12,18 +12,27 @@ h1 {
     font-size:5rem;
     line-height:5rem;
     font-weight: 600;
+
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1.25rem;
     font-weight: 500;
 
     &:not(.bg-primary h2, .tldr h2){
         color: $primary-700;
     }
-  }
+
+    @include media-breakpoint-down(md) {
+        font-size: 2rem;
+    }
+}
 
 h3 {
     font-size: 1.5rem;
@@ -56,10 +65,13 @@ h5{
 
     &--intro{
         font-family: 'Oswald', sans-serif;
-        // color: $primary-700 !important;
         font-weight:700;
         padding-bottom:0;
-        -webkit-text-stroke: 0.1rem $primary-700;
+        -webkit-text-stroke: 3px $primary-700;
+
+        @include media-breakpoint-down(md) {
+            -webkit-text-stroke: 1px $primary-700;
+        }
 
         span {
             &.text-transparent {
@@ -72,7 +84,11 @@ h5{
         display:inline-block;
         padding-left:0.25rem;
         font-size:1.5rem;
-        font-weight:500;
+        font-weight:400;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1rem;
+        }
     }
 
 }
