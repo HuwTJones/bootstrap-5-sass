@@ -11123,6 +11123,11 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   background: #fff;
   font-family: "Oswald", sans-serif;
 }
+@media (max-width: 991.98px) {
+  .menu .navbar-nav:last-child {
+    border-bottom: 1px solid #367870;
+  }
+}
 .menu .navbar-nav .nav-link {
   color: #16322e !important;
   font-size: 1rem;
@@ -11135,17 +11140,16 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   color: #AE2661 !important;
   border-bottom: 2px solid #AE2661;
 }
-.menu .navbar-collapse:last-child {
-  border-bottom: 1px solid #367870;
-}
-.menu .navbar-collapse .nav-link {
-  border-top: 1px solid #367870;
-  margin: 0;
-  padding: 0.5rem;
-}
-.menu .navbar-collapse .nav-link:hover {
-  background-color: #AE2661;
-  color: white !important;
+@media (max-width: 991.98px) {
+  .menu .navbar-nav .nav-link {
+    border-top: 1px solid #367870;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .menu .navbar-nav .nav-link:hover {
+    background-color: #AE2661;
+    color: white !important;
+  }
 }
 .menu .navbar-brand {
   color: #16322e !important;
@@ -11153,12 +11157,12 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   font-weight: 600;
   margin-left: 0;
   border-bottom: none;
-  -webkit-text-stroke: 0.0275rem #16322e;
+  -webkit-text-stroke: 1px #16322e;
 }
 .menu .navbar-brand:hover {
   font-weight: 600;
   color: #AE2661 !important;
-  -webkit-text-stroke: 0.0275rem #AE2661;
+  -webkit-text-stroke: 1px #AE2661;
   border-bottom: none;
 }
 .menu .navbar-brand span.text-transparent {

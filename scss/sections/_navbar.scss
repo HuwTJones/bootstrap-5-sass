@@ -5,8 +5,13 @@
     font-family: 'Oswald', sans-serif;
 
     .navbar-nav{
+        @include media-breakpoint-down(lg) {
+                &:last-child {
+                    border-bottom: 1px solid $primary-100;
+                }
+        }
+
         .nav-link {
-        
                 color: $primary-700 !important;
                 font-size: 1rem;
                 font-weight: 600;
@@ -18,23 +23,19 @@
                     color: $secondary !important; // 
                     border-bottom: 2px solid $secondary;
                 }
-        }
-    } 
 
-    .navbar-collapse{ 
-        &:last-child {
-            border-bottom: 1px solid $primary-100;
+                @include media-breakpoint-down(lg) {
+                    border-top: 1px solid $primary-100;
+                        margin: 0;
+                        padding: 0.5rem;
+                    
+                        &:hover {
+                            background-color: $secondary;
+                            color: white !important;
+                    }
+                }
         }
-        
-        .nav-link{
-        border-top: 1px solid $primary-100;
-        margin:0;
-        padding:0.5rem;
-            &:hover {
-                background-color: $secondary;
-                color: white !important;
-            }
-        }
+
     }
 
         .navbar-brand {
@@ -43,12 +44,12 @@
             font-weight: 600;
             margin-left: 0;
             border-bottom: none;
-            -webkit-text-stroke: 0.0275rem $primary-700;
+            -webkit-text-stroke: 1px $primary-700;
     
             &:hover {
                 font-weight: 600;
                 color: $secondary !important;
-                -webkit-text-stroke: 0.0275rem $secondary;
+                -webkit-text-stroke: 1px $secondary;
                 border-bottom: none;
             }
     
