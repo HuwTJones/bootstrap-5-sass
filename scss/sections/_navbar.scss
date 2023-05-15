@@ -55,50 +55,31 @@
         }
    }
 
+   .navbar-nav{
+
+    .nav-link{
+        @include media-breakpoint-down(lg) {
+            border-top: 1px solid $primary-100;
+
+            &:hover,
+            &:active {
+                background-color: $secondary;
+                color: white;
+            }
+        }
+    }
+    
+    &:last-child {
+        @include media-breakpoint-down(lg) {
+            border-bottom: 1px solid $primary-100;
+        }                         
+    }
+   }
+
 //    Change colour of the hamburger toggle lines (svg background stroke)
    .navbar-toggler-icon {
        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(22, 50, 46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
    }
-
-    // &.portfolio{        
-
-    //     a{
-    //         font-family: 'Oswald', sans-serif;
-    //         font-size:1.25rem;
-    //         color:$primary !important;
-    //         font-weight:500;
-    //         margin: auto 0.5rem;
-    //         border-bottom:2px solid transparent;
-
-    //         &:hover{
-    //             color:$secondary !important;
-    //             border-bottom:2px solid $secondary;
-    //         }
-    //     }
-
-    //     // .navbar-brand{
-    //     //     font-size:1.5rem;
-    //     //     font-weight:600;
-    //     //     margin-left:0;
-    //     //     border-bottom: none;
-    //     //     -webkit-text-stroke: 1px $primary-700;
-            
-    //     //     &:hover{
-    //     //         font-weight: 600;
-    //     //         color:$primary !important;
-    //     //         border-bottom:none;
-    //     //     }
-
-
-    //     //     span{
-    //     //         &.text-transparent{
-    //     //             color:$white;
-    //     //         }
-    //     //     }
-    //     // }
-
-        
-    // }
 
 }
 
