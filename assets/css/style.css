@@ -11121,9 +11121,9 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 
 .menu {
   background: #fff;
-}
-.menu .navbar-nav a {
   font-family: "Oswald", sans-serif;
+}
+.menu .navbar-nav .nav-link {
   color: #16322e !important;
   font-size: 1rem;
   font-weight: 600;
@@ -11131,9 +11131,21 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   margin: auto 0.5rem;
   border-bottom: 2px solid transparent;
 }
-.menu .navbar-nav a:hover {
+.menu .navbar-nav .nav-link:hover {
   color: #AE2661 !important;
   border-bottom: 2px solid #AE2661;
+}
+.menu .navbar-collapse:last-child {
+  border-bottom: 1px solid #367870;
+}
+.menu .navbar-collapse .nav-link {
+  border-top: 1px solid #367870;
+  margin: 0;
+  padding: 0.5rem;
+}
+.menu .navbar-collapse .nav-link:hover {
+  background-color: #AE2661;
+  color: white !important;
 }
 .menu .navbar-brand {
   color: #16322e !important;
@@ -11145,11 +11157,9 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 }
 .menu .navbar-brand:hover {
   font-weight: 600;
-  color: white !important;
+  color: #AE2661 !important;
+  -webkit-text-stroke: 0.0275rem #AE2661;
   border-bottom: none;
-}
-.menu .navbar-brand:hover span.text-transparent {
-  color: #16322e;
 }
 .menu .navbar-brand span.text-transparent {
   color: #fff;
@@ -11160,18 +11170,6 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 }
 .menu .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
-}
-.menu .navbar-nav .collapse .show {
-  border-top: 1px solid #367870;
-}
-.menu .navbar-nav .collapse .show:hover {
-  background-color: #AE2661;
-  color: white !important;
-}
-@media (max-width: 991.98px) {
-  .menu .navbar-nav .collapse .show:last-child {
-    border-bottom: 1px solid #367870;
-  }
 }
 .menu .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(22, 50, 46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
