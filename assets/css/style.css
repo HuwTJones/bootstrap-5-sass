@@ -11122,7 +11122,7 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 .menu {
   background: #fff;
 }
-.menu a {
+.menu .navbar-nav a {
   font-family: "Oswald", sans-serif;
   color: #16322e !important;
   font-size: 1rem;
@@ -11131,7 +11131,7 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   margin: auto 0.5rem;
   border-bottom: 2px solid transparent;
 }
-.menu a:hover {
+.menu .navbar-nav a:hover {
   color: #AE2661 !important;
   border-bottom: 2px solid #AE2661;
 }
@@ -11161,17 +11161,15 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
 .menu .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
 }
-@media (max-width: 991.98px) {
-  .menu .navbar-nav .nav-link {
-    border-top: 1px solid #367870;
-  }
-  .menu .navbar-nav .nav-link:hover, .menu .navbar-nav .nav-link:active {
-    background-color: #AE2661;
-    color: white !important;
-  }
+.menu .navbar-nav .collapse .show {
+  border-top: 1px solid #367870;
+}
+.menu .navbar-nav .collapse .show:hover {
+  background-color: #AE2661;
+  color: white !important;
 }
 @media (max-width: 991.98px) {
-  .menu .navbar-nav:last-child {
+  .menu .navbar-nav .collapse .show:last-child {
     border-bottom: 1px solid #367870;
   }
 }

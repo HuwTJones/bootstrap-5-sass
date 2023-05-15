@@ -2,7 +2,7 @@
 
 .menu{
     background:$white;
-    a{
+    .navbar-nav a{
         font-family: 'Oswald', sans-serif;
         color: $primary-700 !important;
         font-size:1rem;
@@ -57,24 +57,24 @@
 
    .navbar-nav{
 
-    .nav-link{
-        @include media-breakpoint-down(lg) {
+    .collapse .show {
             border-top: 1px solid $primary-100;
-
-            &:hover,
-            &:active {
+    
+            &:hover {
                 background-color: $secondary;
                 color: white !important;
             }
-        }
-    }
     
-    &:last-child {
-        @include media-breakpoint-down(lg) {
-            border-bottom: 1px solid $primary-100;
-        }                         
-    }
+            &:last-child {
+                @include media-breakpoint-down(lg) {
+                    border-bottom: 1px solid $primary-100;
+                }
+            }
+    
+        }
    }
+
+   
 
 //    Change colour of the hamburger toggle lines (svg background stroke)
    .navbar-toggler-icon {
