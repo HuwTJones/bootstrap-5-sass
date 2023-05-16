@@ -11129,6 +11129,10 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white {
   color: white;
 }
 
+.user-journey .touchpoint, .user-journey .chevron {
+  font-size: 2rem;
+}
+
 .menu {
   background: #fff;
   font-family: "Oswald", sans-serif;
