@@ -10891,24 +10891,24 @@ ol li {
 }
 .persona .speech-bubble {
   position: relative;
-  border-radius: 1rem !important;
+  border-radius: 8px !important;
   background-color: #AE2661;
   color: #ffffff;
-  padding: 15px;
+  padding: 0.5rem;
 }
 .persona .speech-bubble-bottom-left:after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: 20%;
   width: 0;
   height: 0;
-  border: 1.781em solid transparent;
+  border: 2rem solid transparent;
   border-top-color: #AE2661;
   border-bottom: 0;
   border-left: 0;
-  margin-left: -0.891em;
-  margin-bottom: -1.781em;
+  margin-left: -1rem;
+  margin-bottom: -1.5rem;
 }
 .persona .speech-bubble-bottom-right:after {
   content: "";
@@ -10917,12 +10917,12 @@ ol li {
   left: 90%;
   width: 0;
   height: 0;
-  border: 1.781em solid transparent;
+  border: 1.781rem solid transparent;
   border-top-color: #000000;
   border-bottom: 0;
   border-right: 0;
-  margin-left: -0.891em;
-  margin-bottom: -1.781em;
+  margin-left: -0.891rem;
+  margin-bottom: -1.781rem;
 }
 .persona .meter {
   height: 1vh;
