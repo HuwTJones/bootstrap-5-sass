@@ -10,17 +10,6 @@
         }
     }
 
-    .persona-details{
-        @include media-breakpoint-up(lg){
-            width:30% !important;
-        }
-
-
-                @include media-breakpoint-down(xl) {
-                    width: 75% !important;
-                }
-    }
-
     .speech-bubble {
         position: relative;
         border-radius: 1rem !important;
@@ -78,4 +67,3 @@
         overflow: hidden;
     }
 }
-

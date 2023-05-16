@@ -10889,16 +10889,6 @@ ol li {
     width: 75%;
   }
 }
-@media (min-width: 992px) {
-  .persona .persona-details {
-    width: 30% !important;
-  }
-}
-@media (max-width: 1199.98px) {
-  .persona .persona-details {
-    width: 75% !important;
-  }
-}
 .persona .speech-bubble {
   position: relative;
   border-radius: 1rem !important;
