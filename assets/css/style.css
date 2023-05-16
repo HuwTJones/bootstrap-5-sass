@@ -11035,7 +11035,7 @@ ol li {
 
 .donut-chart {
   width: 80%;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0 auto;
   animation: donut-fade 1s;
 }
@@ -11057,17 +11057,22 @@ ol li {
   fill: #214944;
 }
 .donut-chart .donut-label {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   font-weight: 700;
   line-height: 1;
   fill: #000;
   transform: translateY(0.25em);
 }
 .donut-chart .donut-percent {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   line-height: 1;
   transform: translateY(0.5em);
   font-weight: bold;
+}
+@media (min-width: 1400px) {
+  .donut-chart .donut-percent {
+    font-size: 0.3rem;
+  }
 }
 
 @keyframes donut-fade {
@@ -11107,24 +11112,24 @@ ol li {
   }
 }
 
-h1:not(.portfolio-title--intro), h2:not(.portfolio-title--intro) {
+h1:not(.portfolio-title--intro), h2:not(.portfolio-title--intro), h3:not(.portfolio-title--intro) {
   display: flex;
   align-items: center;
 }
-h1 .title-icon, h2 .title-icon {
+h1 .title-icon, h2 .title-icon, h3 .title-icon {
   border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
   margin-right: 0.5rem;
 }
-h1 .cv-icon, h2 .cv-icon {
+h1 .cv-icon, h2 .cv-icon, h3 .cv-icon {
   border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
   padding: 0.5rem;
   margin-right: 0.5rem;
 }
-h1 .cv-icon.text-white, h2 .cv-icon.text-white {
+h1 .cv-icon.text-white, h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   background-color: #214944;
   color: white;
 }

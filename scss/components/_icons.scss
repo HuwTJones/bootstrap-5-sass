@@ -1,6 +1,6 @@
 @use '../custom' as *;
 
-  h1, h2 {
+  h1, h2, h3 {
       
     &:not(.portfolio-title--intro){
       display:flex;
