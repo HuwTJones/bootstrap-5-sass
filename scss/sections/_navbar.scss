@@ -2,7 +2,8 @@
 
 .menu{
     background:$white;
-    font-family: 'Oswald', sans-serif;
+    font-weight:900;
+    // font-family: 'Oswald', sans-serif;
 
     .navbar-nav{
         @include media-breakpoint-down(lg) {
@@ -41,15 +42,14 @@
         .navbar-brand {
             color: $primary-700 !important;
             font-size:1.2rem;
-            font-weight: 600;
+            font-weight: 900;
             margin-left: 0;
             border-bottom: none;
-            -webkit-text-stroke: 1.1px $primary-700;
+            -webkit-text-stroke: 0.75px $primary-700;
     
             &:hover {
-                font-weight: 600;
                 color: $secondary !important;
-                -webkit-text-stroke: 1.1px $secondary;
+                -webkit-text-stroke: 0.75px $secondary;
                 border-bottom: none;
             }
     
