@@ -13,7 +13,7 @@
         }
 
         .nav-link {
-                color: $primary-700 !important;
+                color: $primary !important;
                 font-size: 1rem;
                 font-weight: 600;
                 padding: 0;
@@ -40,23 +40,21 @@
     }
 
         .navbar-brand {
-            color: $primary-700 !important;
-            font-size:1.2rem;
+            color: $primary !important;
+            font-size:1.5rem;
             font-weight: 900;
             margin-left: 0;
             border-bottom: none;
-            -webkit-text-stroke: 0.75px $primary-700;
     
             &:hover {
                 color: $secondary !important;
-                -webkit-text-stroke: 0.75px $secondary;
                 border-bottom: none;
             }
     
     
             span {
                 &.text-transparent {
-                    color: $white;
+                    color: $secondary;
                 }
             }
         }
