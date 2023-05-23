@@ -11117,13 +11117,15 @@ h1 .title-icon, h2 .title-icon, h3 .title-icon {
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
   margin-right: 0.5rem;
+  font-size: 90%;
 }
 h1 .cv-icon, h2 .cv-icon, h3 .cv-icon {
   border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
-  padding: 0.5rem;
+  padding: 0.25rem;
   margin-right: 0.5rem;
+  font-size: 90%;
 }
 h1 .cv-icon.text-white, h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   background-color: #214944;
