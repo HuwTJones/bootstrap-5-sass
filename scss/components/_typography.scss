@@ -7,11 +7,11 @@ html{
 }
 
 h1 {
-    // font-family: 'Oswald', sans-serif;
     color: $primary;
     font-size:3.5rem;
     line-height:3.5rem;
     font-weight: 900;
+    text-transform:uppercase;
 
     @include media-breakpoint-down(sm) {
         font-size: 3.25rem;
@@ -23,6 +23,7 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1.25rem;
     font-weight: 900;
+    text-transform: uppercase;
 
     &:not(.bg-primary h2, .tldr h2){
         color: $primary;
