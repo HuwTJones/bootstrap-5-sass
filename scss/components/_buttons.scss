@@ -7,6 +7,7 @@
     font-size:1rem;
     border: 1px solid $secondary-800;
     border-radius:8px;
+    padding: auto 0.5rem !important;
 
     &:hover{
         background-image: none;
@@ -17,7 +18,6 @@
 }
 
 .contact-btn{
-    padding: 0.25rem 1rem !important;
     font-weight:400;
     margin:auto 1rem;
 }

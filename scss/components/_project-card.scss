@@ -15,11 +15,12 @@
 
     .card-img-overlay{
         background:linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0) );
-        height:15%;
+        height:35%;
         border-radius: 0.375rem 0.375rem 0 0;
         
         @include media-breakpoint-up(md) {
-            border-radius: 0.375rem 0.375rem 0 0 ;
+            border-radius: 0.375rem 0.375rem 0 0;
+            height:20%;
         }
     }
 }
