@@ -10794,6 +10794,7 @@ html {
   font-family: "Poppins", sans-serif;
   color: #0c1a18;
   font-size: calc(15px + 0.390625vw);
+  font-size: clamp(1rem, 15px + 0.390625vw, 1.25rem);
 }
 
 h1 {
