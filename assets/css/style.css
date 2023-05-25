@@ -10938,6 +10938,14 @@ ol li {
   overflow: hidden;
 }
 
+.work-card {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .work-card {
+    width: 75%;
+  }
+}
 .work-card .img-fluid, .work-card .card-img {
   height: 100%;
   object-fit: cover;

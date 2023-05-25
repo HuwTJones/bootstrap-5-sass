@@ -1,6 +1,11 @@
 @use '../custom' as *;
 
 .work-card{
+    width:100%;
+
+    @include media-breakpoint-up(xl) {
+        width:75%;
+    }
 
     .img-fluid, .card-img {
         height: 100%;
