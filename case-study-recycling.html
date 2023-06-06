@@ -142,21 +142,21 @@
               diagram.
             </p>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 mb-4">
             <img
-              src="images/ux-flow-diagram-original.png"
+              src="images/newport-recycling/ux-flow-diagram-original.png"
               class="img-fluid rounded shadow"
               alt="UX Flow Diagram of the existing process"
             />
           </div>
-          <div class="col-md-12 mb-4">
+          <!-- <div class="col-md-12 mb-4">
             <a
               href="case-study-recycling.pdf"
               class="btn btn-secondary shadow my-4 align-self-start"
               ><i class="las la-file-pdf title-icon"></i> Download the UX Flow
               Diagram</a
             >
-          </div>
+          </div> -->
           <div class="col-md-12 mb-4">
             <h3>Potential pain points:</h3>
             <ul>
@@ -171,9 +171,10 @@
               <li>
                 It is possible to order hygiene bags at the end of the request
                 for a full set of bins to a new property, but this isn't clear
-                from the the initial 'order bins and bags' screen, so user may
+                from the the initial 'order bins and bags' screen, so users may
                 have already, unnecessarily, completed the hygiene bag request
-                form - entering the same name, address and personal details.
+                form - this means they have to enter the same name, address and
+                personal details at least twice!
               </li>
               <li>
                 New property owners are informed that they will receive a full
@@ -188,34 +189,107 @@
       </div>
     </section>
     <!-- End of User flow section -->
-    <!-- Start of define section -->
+    <!-- Start of heuristic evaluation section-->
     <section id="newport-heuristic" class="newport-heuristic-section bg-light">
       <div class="container py-4">
         <div class="row">
           <div class="col-12">
             <h2>
-              <i class="las la-list-alt title-icon"></i>Heuristic analysis:
+              <i class="las la-list-alt title-icon"></i>Heuristic Evaluation:
             </h2>
           </div>
           <div class="col-lg-9 px-lg-3 mb-lg-3">
             <p>
               As well as issues with user flow I also wanted to highlight any
-              specific usability obstacles that may have made my experience
-              frustrating enough to build an alternative prototype!
+              specific usability issues and obstacles that may have made my
+              experience frustrating enough to build an alternative prototype!
             </p>
             <p>
               Ideally an analysis should be undertaken by a team of 3 to 5
-              designers and their findings cross-referenced, but this is a
-              personal project so 1 will have to do! I also think that the
-              narrow scope of the analysis (purely concerned with the request
-              form) means that I should be able to identify the main pain points
-              on my own.
+              designers and their findings cross-referenced, but the reality is
+              that this is a personal project with no budget so 1 will have to
+              do!
             </p>
+            <p>
+              I felt that the narrow scope of the evaluation (purely concerned
+              with the request form usability) meant that I should be able to
+              identify enough of the main pain points on my own to improve the
+              user experience.
+            </p>
+            <p>
+              In an attempt to avoid personal biases I used Jakob Nielsen et.
+              al's 10 usability principles as a framework for the analysis.
+            </p>
+            <p>
+              The main roadblocks and areas of friction my evaluation found were
+              as follows:
+            </p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/newport-recycling/newport-progress-indicator.gif"
+              class="img-fluid rounded shadow"
+              alt="Prototype 1 about me page"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <h4>#1: Visibility of system status</h4>
+            <p>
+              <em
+                >The design should always keep users informed about what is
+                going on, through appropriate feedback within a reasonable
+                amount of time.</em
+              >
+            </p>
+            <ul>
+              <li>
+                A progress indicator is present on every page during the request
+                process, but it doesn't inform the user of the exact stages
+                required or the tasks completed (no textual context given, just
+                a green tick indicator).
+              </li>
+              <li>
+                Progress through the process is only displayed by a subtle
+                increase in the size of the indicator icon and change to a
+                darker grey, needs to be made more obvious for users.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h4>#4: Consistency and standards</h4>
+            <p>
+              <em
+                >Users should not have to wonder whether different words,
+                situations, or actions mean the same thing. Follow platform and
+                industry conventions.</em
+              >
+            </p>
+            <ul>
+              <li>
+                There is inconsistency between the look and position of previous
+                buttons throughout the process; sometimes they are left-aligned
+                accompanied by text, sometimes they are placed at the end of the
+                right-aligned buttons with no text.
+              </li>
+              <li>
+                The button to proceed to the next stage of the request is
+                labelled 'Next' at the top of the screen, but 'Continue' at the
+                bottom - user can't be 100% sure these buttons will perform
+                exactly the same actions.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/newport-recycling/newport-previous-no-text.gif"
+              class="img-fluid rounded shadow"
+              alt="Prototype 1 about me page"
+            />
           </div>
         </div>
       </div>
     </section>
-    <!-- End of define section -->
+    <!-- End of heuristic evaluation section -->
 
     <!-- Start of prototype section -->
     <section id="newport-prototype" class="prototype-section bg-light">
@@ -237,51 +311,6 @@
               src="images/mockups/portfolio-prototype01-screen01.png"
               class="img-fluid bg-transparent"
               alt="Prototype 1 about me page"
-            />
-          </div>
-          <div class="col-4 mb-4">
-            <img
-              src="images/mockups/portfolio-prototype01-screen02.png"
-              class="img-fluid"
-              alt="Prototype 1 projects page"
-            />
-          </div>
-          <div class="col-4 mb-4">
-            <img
-              src="images/mockups/portfolio-prototype01-screen03.png"
-              class="img-fluid"
-              alt="Prototype 1 cv page"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h3>Prototype 2</h3>
-            <p>
-              Only uses genuine content. More of a high-fidelity mock up, bottom
-              tab bar is discarded for a conventional hamburger menu on mobile
-              screens.
-            </p>
-          </div>
-          <div class="col-4 mb-4">
-            <img
-              src="images/mockups/portfolio-prototype02-screen01.png"
-              class="img-fluid"
-              alt="Prototype 2 home page"
-            />
-          </div>
-          <div class="col-4 mb-4">
-            <img
-              src="images/mockups/portfolio-prototype02-screen02.png"
-              class="img-fluid"
-              alt="Prototype 2 hamburger dropdown menu"
-            />
-          </div>
-          <div class="col-4 mb-4">
-            <img
-              src="images/mockups/portfolio-prototype02-screen03.png"
-              class="img-fluid"
-              alt="Prototype 2 cv page"
             />
           </div>
         </div>
