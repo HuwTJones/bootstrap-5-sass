@@ -87,14 +87,14 @@
     <section id="portfolio-intro" class="intro-section bg-light">
       <div class="container-xl py-4">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 mb-4">
             <h2><i class="las la-map title-icon"></i>Project brief</h2>
-          </div>
-          <div class="col-12 px-lg-3 mb-3">
             <h3>
               To improve the effectiveness, clarity and overall experience when
               requesting recycling bins and services online
             </h3>
+          </div>
+          <div class="col-lg-6 px-lg-3 mb-lg-5">
             <p>
               Usually I live by the UX mantra "I am not the user", but in this
               case I am!
@@ -104,6 +104,8 @@
               into how it could be improved. Who knows, maybe someone from
               Newport Council is watching?!
             </p>
+          </div>
+          <div class="col-lg-6 px-lg-3 mb-lg-5">
             <p>My aim was to:</p>
             <ul>
               <li>
@@ -115,7 +117,7 @@
                 onboarding process and reducing the potential for user confusion
               </li>
               <li>
-                <strong>Ensuring the user has a positive experience</strong> by
+                <strong>Ensure the user has a positive experience</strong> by
                 only requesting information when necessary and reducing number
                 of requests for details.
               </li>
@@ -157,8 +159,10 @@
               Diagram</a
             >
           </div> -->
-          <div class="col-md-12 mb-4">
+          <div class="col-12">
             <h3>Potential pain points:</h3>
+          </div>
+          <div class="col-lg-6 px-lg-3 mb-lg-5">
             <ul>
               <li>
                 There is no access to the top-level menu for the site once a
@@ -176,6 +180,10 @@
                 form - this means they have to enter the same name, address and
                 personal details at least twice!
               </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 px-lg-3 mb-lg-5">
+            <ul>
               <li>
                 New property owners are informed that they will receive a full
                 set of bins once payment is received, but only once they have
@@ -198,7 +206,7 @@
               <i class="las la-list-alt title-icon"></i>Heuristic Evaluation:
             </h2>
           </div>
-          <div class="col-lg-9 px-lg-3 mb-lg-3">
+          <div class="col-lg-6 px-lg-3 mb-lg-5">
             <p>
               As well as issues with user flow I also wanted to highlight any
               specific usability issues and obstacles that may have made my
@@ -216,23 +224,26 @@
               identify enough of the main pain points on my own to improve the
               user experience.
             </p>
+          </div>
+          <div class="col-lg-6 px-lg-3 mb-5">
             <p>
               In an attempt to avoid personal biases I used Jakob Nielsen et.
               al's 10 usability principles as a framework for the analysis.
             </p>
             <p>
               The main roadblocks and areas of friction my evaluation found were
-              as follows:
+              as follows (this is not a comprehensive report of the evaluation
+              findings):
             </p>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-lg-6 mb-4 mb-lg-5">
             <img
               src="images/newport-recycling/newport-progress-indicator.gif"
               class="img-fluid rounded shadow"
               alt="Prototype 1 about me page"
             />
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-lg-6 mb-5">
             <h4>#1: Visibility of system status</h4>
             <p>
               <em
@@ -255,7 +266,24 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-6 mb-5">
+          <div class="col-lg-6 mb-4 mb-lg-5">
+            <img
+              src="images/newport-recycling/newport-previous-with-text.gif"
+              class="img-fluid rounded shadow mb-3"
+              alt="Prototype 1 about me page"
+            />
+            <img
+              src="images/newport-recycling/newport-back-chevron-only.gif"
+              class="img-fluid rounded shadow mb-3"
+              alt="Prototype 1 about me page"
+            />
+            <img
+              src="images/newport-recycling/newport-yellow-continue.gif"
+              class="img-fluid rounded shadow"
+              alt="Prototype 1 about me page"
+            />
+          </div>
+          <div class="col-lg-6 mb-5">
             <h4>#4: Consistency and standards</h4>
             <p>
               <em
@@ -266,25 +294,65 @@
             </p>
             <ul>
               <li>
-                There is inconsistency between the look and position of previous
-                buttons throughout the process; sometimes they are left-aligned
-                accompanied by text, sometimes they are placed at the end of the
-                right-aligned buttons with no text.
+                There is
+                <strong
+                  >inconsistency between the look and position of
+                  buttons</strong
+                >
+                throughout the process; sometimes they are yellow and sometimes
+                black, sometimes left-aligned accompanied by text and others
+                right-aligned with no text.
               </li>
               <li>
                 The button to proceed to the next stage of the request is
                 labelled 'Next' at the top of the screen, but 'Continue' at the
                 bottom - user can't be 100% sure these buttons will perform
-                exactly the same actions.
+                exactly the same actions. Neither buttons contain a forward
+                chevron to mirror the 'previous' buttons.
+              </li>
+              <li>
+                The
+                <strong
+                  >instructions used on the buttons are inconsistent</strong
+                >; 'back' and 'continue' or 'previous' and 'next' would be more
+                logical pairs in my opinion.
               </li>
             </ul>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-lg-6 mb-4 mb-lg-5">
             <img
-              src="images/newport-recycling/newport-previous-no-text.gif"
+              src="images/newport-recycling/newport-error-modal.gif"
               class="img-fluid rounded shadow"
               alt="Prototype 1 about me page"
             />
+          </div>
+          <div class="col-lg-6 mb-5">
+            <h4>#9: Help users recognise, diagnose, and recover from errors</h4>
+            <p>
+              <em>
+                Error messages should be expressed in plain language (no error
+                codes), precisely indicate the problem, and constructively
+                suggest a solution.
+              </em>
+            </p>
+            <p>
+              For me, this is the <strong>most obvious pain point</strong> in
+              the process.
+            </p>
+            <ul>
+              <li>
+                Users are only informed of any errors when they try to continue
+                with the request process, and then only on a small modal in
+                non-descript text &ndash; the lack of flags and constructive
+                error messages places
+                <strong>too heavy a cognitive load</strong> on the user.
+              </li>
+              <li>
+                The user needs to recall the exact form field where the error
+                occurred and the nature of the problem (the diagnostic modal has
+                to be closed before the error can be corrected).
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -298,15 +366,19 @@
           <div class="col-12">
             <h2><i class="las la-pencil-ruler title-icon"></i>Prototype</h2>
           </div>
-          <div class="col-12">
-            <h3>Prototype 1</h3>
+          <div class="col-12 mb-4">
             <p>
-              Includes a hybrid mixture of real and 'dummy' content. Works like
-              an interactive wireframe and uses the bottom tab bar UI pattern on
-              smaller screens.
+              These are example screenshots of my prototype being used to
+              perform the various tasks.
             </p>
           </div>
-          <div class="col-4 mb-4">
+          <div class="col-4 mb-4 text-center">
+            <p>
+              <strong>
+                Users are asked which tasks they want to perform early in the
+                process
+              </strong>
+            </p>
             <img
               src="images/mockups/portfolio-prototype01-screen01.png"
               class="img-fluid bg-transparent"
@@ -324,12 +396,19 @@
         <div class="row">
           <div class="col-md-12">
             <h2><i class="las la-tachometer-alt title-icon"></i>Test</h2>
+            <p>
+              One of my main objectives was to increase the efficiency of the
+              ordering process, which should mean that the tasks take less time
+              to perform, so I set users a specific scenario and measured the
+              time taken to complete the task. The average completion times are
+              shown below:
+            </p>
           </div>
           <div class="col-lg-6 px-lg-3 mb-3">
             <h3>Average time to complete existing form</h3>
           </div>
           <div class="col-lg-6 px-lg-3 mb-3">
-            <h3>Average time to complete prototype form</h3>
+            <h3>Average time to complete my prototype form</h3>
           </div>
         </div>
       </div>
