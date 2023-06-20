@@ -10862,8 +10862,12 @@ h5 {
   font-size: 1.25rem;
 }
 
-ul li,
-ol li {
+ul,
+ol {
+  margin-bottom: 1.5rem;
+}
+
+li {
   margin-bottom: 0.5rem;
 }
 
