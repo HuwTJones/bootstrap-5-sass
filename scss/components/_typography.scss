@@ -1,42 +1,60 @@
 @use '../custom' as *;
 
-html{
-    font-family: "Poppins", sans-serif;
-    color:$primary-900;
-    font-size: calc(15px + 0.390625vw);
-    font-size: clamp(1rem, calc(15px + 0.390625vw), 1.25rem);
+:root{
+    --ff-body:"Poppins", sans-serif;
+    --ff-heading: "Poppins", sans-serif;
+
+    --fs-xl: 5rem;
+    --fs-700: 2.5rem;
+    --fs-500: 1.5rem;
+    --fs-400: 1rem;
+    --fs-300: 0.75rem;
+}
+
+@media(min-width:992px){
+    :root {    
+        --fs-xl: 7rem;
+        --fs-700: 3rem;
+        --fs-500: 2rem;
+        --fs-400: 1.25rem;
+        --fs-300: 1rem;
+    }
+}
+
+body{
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    color:$primary-800;
 }
 
 h1 {
     color: $primary;
-    font-size:3.5rem;
-    line-height:3.5rem;
-    font-weight: 900;
+    font-size:var(--fs-xl);
+    line-height:var(--fs-xl);
+    font-weight: 800;
     text-transform:uppercase;
 
-    @include media-breakpoint-down(sm) {
-        font-size: 3.25rem;
-        line-height: 3.25rem;
-    }
+    span {
+            &.text-transparent {
+                color: $secondary;
+            }
+        }
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: var(--fs-700);
     margin-bottom: 1.25rem;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 
     &:not(.bg-primary h2, .tldr h2){
         color: $primary;
     }
 
-    @include media-breakpoint-down(md) {
-        font-size: 2rem;
-    }
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: var(--fs-500);
     font-weight: 500;
 
     &:not(.bg-primary h3, .tldr h3) {
@@ -45,13 +63,13 @@ h3 {
 }
     
 h4 {
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: var(--fs-400);
+    font-weight: 500;
 }
 
 h5{
-    font-size:1rem;
-    font-weight: 400;
+    font-size: var(--fs-300);
+    font-weight: 300;
 }
 
 .tldr{
@@ -59,35 +77,6 @@ h5{
         color: $secondary;
     }
 }
-
-
-
-.portfolio-title{
-    span{
-        margin-bottom:0;
-        padding-top:0;
-    }
-
-    &--intro{
-        // font-family: 'Oswald', sans-serif;
-        font-weight:900;
-        padding-bottom:0;
-
-        span {
-            &.text-transparent {
-                color: $secondary;
-            }
-        }
-    }
-
-    &--description{
-        display:inline-block;
-        font-size:1rem;
-        font-weight:400;
-    }
-
-}
-
 
 
 .card-title{
