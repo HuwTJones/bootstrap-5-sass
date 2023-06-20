@@ -10792,7 +10792,7 @@ textarea.form-control-lg {
 :root {
   --ff-body:"Poppins", sans-serif;
   --ff-heading: "Poppins", sans-serif;
-  --fs-xl: 5rem;
+  --fs-xl: clamp(3.5rem, 12vw + 1rem, 8rem);
   --fs-700: 2.5rem;
   --fs-500: 1.5rem;
   --fs-400: 1rem;
@@ -10801,10 +10801,9 @@ textarea.form-control-lg {
 
 @media (min-width: 1200px) {
   :root {
-    --fs-xl: 7rem;
-    --fs-700: 2.5rem;
-    --fs-500: 2rem;
-    --fs-400: 1.25rem;
+    --fs-700: 3.5rem;
+    --fs-500: 2.5rem;
+    --fs-400: 1.125rem;
     --fs-300: 1rem;
   }
 }
@@ -10869,7 +10868,7 @@ li {
 .persona {
   /*speech bubble styling*/
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .persona {
     border-radius: 8px;
   }
