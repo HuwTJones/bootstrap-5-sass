@@ -1,11 +1,9 @@
 @use '../custom' as *;
 
-  h1, h2, h3 {
-      
-    &:not(.portfolio-title--intro){
+  h2, h3 {
       display:flex;
       align-items:center;
-    }
+    
 
       .title-icon {
           border: 3px solid;
@@ -31,5 +29,5 @@
   }
 
   .user-journey .touchpoint, .user-journey .chevron{
-    font-size:2rem;
+    font-size: var(--fs-500);
   }

@@ -10843,12 +10843,12 @@ h3:not(.bg-primary h3, .tldr h3) {
 }
 
 h4 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-400);
   font-weight: 500;
 }
 
 h5 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   font-weight: 300;
 }
 
@@ -11117,17 +11117,17 @@ li {
   }
 }
 
-h1:not(.portfolio-title--intro), h2:not(.portfolio-title--intro), h3:not(.portfolio-title--intro) {
+h2, h3 {
   display: flex;
   align-items: center;
 }
-h1 .title-icon, h2 .title-icon, h3 .title-icon {
+h2 .title-icon, h3 .title-icon {
   border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
   margin-right: 0.5rem;
 }
-h1 .cv-icon, h2 .cv-icon, h3 .cv-icon {
+h2 .cv-icon, h3 .cv-icon {
   border: 3px solid;
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
@@ -11135,13 +11135,13 @@ h1 .cv-icon, h2 .cv-icon, h3 .cv-icon {
   margin-right: 0.5rem;
   font-size: 90%;
 }
-h1 .cv-icon.text-white, h2 .cv-icon.text-white, h3 .cv-icon.text-white {
+h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   background-color: #214944;
   color: white;
 }
 
 .user-journey .touchpoint, .user-journey .chevron {
-  font-size: 2rem;
+  font-size: var(--fs-500);
 }
 
 .menu {
