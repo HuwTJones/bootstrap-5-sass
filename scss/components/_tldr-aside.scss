@@ -7,7 +7,7 @@
     width:100%;
     padding: 1rem !important;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         width:75%;
     }
 }
