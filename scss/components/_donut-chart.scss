@@ -2,7 +2,7 @@
 
 .donut-chart{
     width:80%;
-    font-size:1rem;
+    font-size: var(--fs-400);
     margin:0 auto;
     animation:donut-fade 1s;
 
@@ -40,7 +40,7 @@
             font-size: 0.4rem;
             line-height: 1;
             transform: translateY(0.5em);
-            font-weight: bold;
+            font-weight: 700;
 
             @include media-breakpoint-up(xxl) {
                 font-size: 0.3rem;

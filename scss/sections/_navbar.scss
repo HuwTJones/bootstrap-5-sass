@@ -14,8 +14,8 @@
 
         .nav-link {
                 color: $primary !important;
-                font-size: 1rem;
-                font-weight: 600;
+                font-size: var(--fs-400);
+                font-weight: 500;
                 padding: 0;
                 margin: auto 1rem;
                 border-bottom: 2px solid transparent;
@@ -41,8 +41,8 @@
 
         .navbar-brand {
             color: $primary !important;
-            font-size:1.5rem;
-            font-weight: 900;
+            font-size: var(--fs-500);
+            font-weight: 800;
             margin-left: 0;
             border-bottom: none;
     

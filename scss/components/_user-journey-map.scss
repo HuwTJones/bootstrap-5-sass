@@ -35,12 +35,12 @@
        color: #fff;
    }
 
-   .bi{
-       font-size:1.4rem;
+   .las {
+      font-size: var(--fs-500);
    }
 
      .meter {
-       height: 1vh;
+       height: 1rem;
        position: relative;
        background: #ccc;
        border-radius: 25px;
@@ -48,7 +48,7 @@
   
      .meter>span {
        display: block;
-       height: 1vh;
+       height: 1rem;
        border-top-right-radius: 8px;
        border-bottom-right-radius: 8px;
        border-top-left-radius: 20px;

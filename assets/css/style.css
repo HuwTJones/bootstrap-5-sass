@@ -10772,8 +10772,8 @@ textarea.form-control-lg {
 .btn-secondary {
   color: white;
   background-image: linear-gradient(140deg, #D33479 0%, #BC2969 84%);
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: var(--fs-400);
   border: 1px solid #761A42;
   border-radius: 8px;
   padding: auto 0.5rem !important;
@@ -10786,7 +10786,7 @@ textarea.form-control-lg {
 }
 
 .contact-btn {
-  font-weight: 400;
+  font-weight: 500;
   margin: auto 1rem;
 }
 
@@ -10918,14 +10918,14 @@ li {
   margin-bottom: -1.781rem;
 }
 .persona .meter {
-  height: 1vh;
+  height: 1rem;
   position: relative;
   background: #ccc;
   border-radius: 25px;
 }
 .persona .meter > span {
   display: block;
-  height: 1vh;
+  height: 1rem;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
@@ -11001,18 +11001,18 @@ li {
 .user-journey .card-footer {
   color: #fff;
 }
-.user-journey .bi {
-  font-size: 1.4rem;
+.user-journey .las {
+  font-size: var(--fs-500);
 }
 .user-journey .meter {
-  height: 1vh;
+  height: 1rem;
   position: relative;
   background: #ccc;
   border-radius: 25px;
 }
 .user-journey .meter > span {
   display: block;
-  height: 1vh;
+  height: 1rem;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
@@ -11033,7 +11033,7 @@ li {
 
 .donut-chart {
   width: 80%;
-  font-size: 1rem;
+  font-size: var(--fs-400);
   margin: 0 auto;
   animation: donut-fade 1s;
 }
@@ -11065,7 +11065,7 @@ li {
   font-size: 0.4rem;
   line-height: 1;
   transform: translateY(0.5em);
-  font-weight: bold;
+  font-weight: 700;
 }
 @media (min-width: 1400px) {
   .donut-chart .donut-percent {
@@ -11119,7 +11119,6 @@ h1 .title-icon, h2 .title-icon, h3 .title-icon {
   border-radius: 8px;
   -webkit-text-stroke: 0 !important;
   margin-right: 0.5rem;
-  font-size: 90%;
 }
 h1 .cv-icon, h2 .cv-icon, h3 .cv-icon {
   border: 3px solid;
@@ -11149,8 +11148,8 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 }
 .menu .navbar-nav .nav-link {
   color: #214944 !important;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: var(--fs-400);
+  font-weight: 500;
   padding: 0;
   margin: auto 1rem;
   border-bottom: 2px solid transparent;
@@ -11172,8 +11171,8 @@ h1 .cv-icon.text-white, h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 }
 .menu .navbar-brand {
   color: #214944 !important;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: var(--fs-500);
+  font-weight: 800;
   margin-left: 0;
   border-bottom: none;
 }
@@ -11225,7 +11224,7 @@ body {
 }
 
 .socials-holder {
-  font-size: 2rem;
+  font-size: var(--fs-500);
 }
 
 .portfolio-work {
