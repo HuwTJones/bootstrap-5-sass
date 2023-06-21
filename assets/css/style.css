@@ -10769,6 +10769,48 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.shortest-time {
+  animation: secondary-pulse 2s forwards;
+}
+
+.longest-time {
+  animation: fade-in-opacity-50 2s forwards;
+}
+
+@keyframes secondary-pulse {
+  0% {
+    font-size: var(--fs-300);
+    opacity: 0;
+  }
+  25% {
+    font-size: var(--fs-xl);
+    opacity: 1;
+  }
+  50% {
+    font-size: var(--fs-xl);
+    opacity: 0;
+    color: #AE2661;
+  }
+  100% {
+    font-size: var(--fs-xl);
+    opacity: 1;
+    color: #AE2661;
+  }
+}
+@keyframes fade-in-opacity-50 {
+  0% {
+    font-size: var(--fs-300);
+    opacity: 0;
+  }
+  50% {
+    font-size: var(--fs-xl);
+    opacity: 1;
+  }
+  100% {
+    font-size: var(--fs-xl);
+    opacity: 0.5;
+  }
+}
 .btn-secondary {
   color: white;
   background-image: linear-gradient(140deg, #D33479 0%, #BC2969 84%);
@@ -10862,6 +10904,17 @@ h5 {
   font-weight: 300;
 }
 
+.lead {
+  font-size: var(--fs-400);
+  font-weight: 500;
+}
+
+.hero-section .lead {
+  padding-block: min(5vh, 2rem);
+  font-size: var(--fs-500);
+  font-weight: 300;
+}
+
 #cv-main section {
   padding-block: min(2vh, 4rem);
 }
@@ -10888,6 +10941,10 @@ ol {
 
 li {
   margin-bottom: 0.5rem;
+}
+
+time {
+  font-weight: 700;
 }
 
 .persona {

@@ -80,6 +80,17 @@ h5{
     font-weight: 300;
 }
 
+.lead{
+    font-size:var(--fs-400);
+    font-weight:500;
+}
+
+.hero-section .lead{
+    padding-block:min(5vh, 2rem);
+    font-size: var(--fs-500);
+    font-weight: 300;
+}
+
  #cv-main {
     section {
         padding-block: min(2vh, 4rem);
@@ -112,4 +123,8 @@ ol{
 
 li{
     margin-bottom: 0.5rem;
+}
+
+time{
+    font-weight:700;
 }

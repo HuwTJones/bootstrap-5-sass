@@ -1,0 +1,45 @@
+@use '../custom' as *;
+
+.shortest-time{
+    animation: secondary-pulse 2s forwards;
+}
+
+.longest-time{
+    animation: fade-in-opacity-50 2s forwards;
+}
+
+@keyframes secondary-pulse{
+    0%{
+        font-size: var(--fs-300);
+        opacity:0;
+    }
+    25%{
+        font-size: var(--fs-xl);
+        opacity:1;
+    }
+    50%{
+        font-size: var(--fs-xl);
+        opacity:0;
+        color: $secondary;
+    }
+    100%{
+        font-size: var(--fs-xl);
+        opacity:1;
+        color:$secondary;
+    }
+}
+
+@keyframes fade-in-opacity-50{
+    0%{
+        font-size: var(--fs-300);
+        opacity: 0;
+    }
+    50%{
+        font-size: var(--fs-xl);
+        opacity: 1;
+    }
+    100%{
+        font-size: var(--fs-xl);
+        opacity: 0.5;
+    }
+}
