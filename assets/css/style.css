@@ -10795,6 +10795,7 @@ textarea.form-control-lg {
   --ff-heading: "Poppins", sans-serif;
   --fs-xl: clamp(3.5rem, 12vw + 1rem, 8rem);
   --fs-700: 2.5rem;
+  --fs-600: 2rem;
   --fs-500: 1.5rem;
   --fs-400: 1rem;
   --fs-300: 0.75rem;
@@ -10803,6 +10804,7 @@ textarea.form-control-lg {
 @media (min-width: 1200px) {
   :root {
     --fs-700: 3.5rem;
+    --fs-600: 2.75rem;
     --fs-500: 2rem;
     --fs-400: 1.125rem;
     --fs-300: 1rem;
@@ -10858,6 +10860,18 @@ h4 {
 h5 {
   font-size: var(--fs-300);
   font-weight: 300;
+}
+
+#cv-main h2 {
+  font-size: var(--fs-600);
+  margin-bottom: 1.25rem;
+  margin-top: min(10vh, 2.5rem);
+  font-weight: 700;
+}
+#cv-main h4 {
+  font-size: var(--fs-400);
+  font-weight: 500;
+  margin-top: min(5vh, 1.5rem);
 }
 
 .tldr h2 {
