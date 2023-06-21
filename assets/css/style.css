@@ -11149,6 +11149,10 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   font-size: var(--fs-500);
 }
 
+.navbar {
+  height: 64px;
+}
+
 .menu {
   background: #fff;
   font-weight: 800;
@@ -11183,7 +11187,7 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 }
 .menu .navbar-brand {
   color: #214944 !important;
-  font-size: var(--fs-500);
+  font-size: 1.5rem;
   font-weight: 800;
   margin-left: 0;
   border-bottom: none;

@@ -1,5 +1,10 @@
 @use '../custom' as *;
 
+.navbar{
+    // padding-block:0.5rem;
+    height:64px;
+}
+
 .menu{
     background:$white;
     font-weight:800;
@@ -41,7 +46,7 @@
 
         .navbar-brand {
             color: $primary !important;
-            font-size: var(--fs-500);
+            font-size: 1.5rem;
             font-weight: 800;
             margin-left: 0;
             border-bottom: none;
