@@ -10772,7 +10772,7 @@ textarea.form-control-lg {
 .btn-secondary {
   color: white;
   background-image: linear-gradient(140deg, #D33479 0%, #BC2969 84%);
-  font-weight: 400;
+  font-weight: 0;
   font-size: var(--fs-400);
   border: 1px solid #761A42;
   border-radius: 8px;
@@ -10787,6 +10787,7 @@ textarea.form-control-lg {
 
 .contact-btn {
   font-weight: 400;
+  margin: auto 1rem;
 }
 
 :root {

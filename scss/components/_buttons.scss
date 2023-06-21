@@ -3,7 +3,7 @@
 .btn-secondary{
     color:white;
     background-image: linear-gradient(140deg, $secondary-100 0%, $secondary-300 84%);
-    font-weight:400;
+    font-weight:00;
     font-size: var(--fs-400);
     border: 1px solid $secondary-800;
     border-radius:8px;
@@ -19,5 +19,5 @@
 
 .contact-btn{
     font-weight:400;
-    // margin:auto 1rem;
+    margin:auto 1rem;
 }
