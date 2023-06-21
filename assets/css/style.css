@@ -10814,10 +10814,14 @@ body {
   color: #112623;
 }
 
+section {
+  padding-block: min(15vh, 8rem);
+}
+
 h1 {
   color: #214944;
   font-size: var(--fs-xl);
-  line-height: var(--fs-xl);
+  line-height: 1;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -11202,11 +11206,6 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(22, 50, 46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.hero-section {
-  margin-top: 6rem;
-  background-color: #fff;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -11233,23 +11232,6 @@ body {
 
 .socials-holder {
   font-size: var(--fs-500);
-}
-
-.portfolio-work {
-  padding: 0;
-  min-height: 50vh;
-  width: 100%;
-  background-color: #fff;
-  margin: 2rem auto 4rem auto;
-}
-.portfolio-work button.nav-link {
-  color: #fff;
-  background-color: #214944;
-}
-.portfolio-work button.nav-link.active {
-  color: #214944;
-  background-color: #fff;
-  border-color: #214944;
 }
 
 /*# sourceMappingURL=style.css.map */
