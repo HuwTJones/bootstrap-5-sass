@@ -81,11 +81,14 @@ h5{
 }
 
  #cv-main {
+    section {
+        padding-block: min(2vh, 4rem);
+    }
 
     h2{
         font-size: var(--fs-600);
         margin-bottom: 1.25rem;
-        margin-top:min(10vh, 2.5rem);
+        margin-top:min(5vh, 3rem);
         font-weight: 700;
     }
             
