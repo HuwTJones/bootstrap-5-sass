@@ -23,12 +23,16 @@
     }                    /*speech bubble styling*/
 
     .speech-bubble {
-        font-size: var(--fs-500);
+        font-size: var(--fs-400);
         position: relative;
         border-radius: 8px !important;
         background-color: $secondary;
         color: #ffffff;
         padding: 0.5rem;
+    }
+
+    .below-bubble{
+        margin-top:min(15vh, 4rem);
     }
 
     .speech-bubble-bottom-left:after {

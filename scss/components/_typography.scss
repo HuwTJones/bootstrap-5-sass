@@ -14,7 +14,7 @@
 @media(min-width:1200px){
     :root {    
         --fs-700: 3.5rem;
-        --fs-500: 2.5rem;
+        --fs-500: 2rem;
         --fs-400: 1.125rem;
         --fs-300: 1rem;
     }
@@ -27,7 +27,7 @@ body{
 }
 
 section{
-   padding-block:min(15vh, 8rem); 
+   padding-block:min(10vh, 6rem); 
 }
 
 h1 {
@@ -49,6 +49,7 @@ h2 {
     margin-bottom: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom:min(10vh,2.5rem);
 
     &:not(.bg-primary h2, .tldr h2){
         color: $primary;
@@ -58,7 +59,8 @@ h2 {
 
 h3 {
     font-size: var(--fs-500);
-    font-weight: 500;
+    font-weight: 700;
+    margin-top:min(5vh, 2rem);
 
     &:not(.bg-primary h3, .tldr h3) {
         color: $primary;
@@ -66,8 +68,9 @@ h3 {
 }
     
 h4 {
-    font-size: var(--fs-400);
-    font-weight: 500;
+    font-size: var(--fs-500);
+    font-weight: 400;
+    margin-top: min(5vh, 2.5rem);
 }
 
 h5{
