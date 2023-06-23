@@ -49,6 +49,11 @@
             font-weight: 800;
             margin-left: 0;
             border-bottom: none;
+
+            &.active{
+                opacity: 0;
+                animation: fade-in 1s forwards;
+            }
     
             &:hover {
                 color: $secondary !important;

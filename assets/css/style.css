@@ -10831,6 +10831,10 @@ textarea.form-control-lg {
   font-weight: 400;
   margin: auto 1rem;
 }
+.contact-btn.active {
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
 
 :root {
   --ff-body:"Poppins", sans-serif;
@@ -10866,6 +10870,7 @@ h5,
 h6,
 blockquote {
   white-space: unset;
+  text-wrap: balance;
 }
 
 section {
@@ -10895,6 +10900,12 @@ h2 {
 }
 h2:not(.bg-primary h2, .tldr h2) {
   color: #214944;
+}
+h2.heading-with-icon {
+  opacity: 0;
+}
+h2.heading-with-icon.active {
+  animation: fade-in 2s forwards;
 }
 
 h3 {
@@ -10927,6 +10938,8 @@ h5 {
   padding-block: min(5vh, 2rem);
   font-size: var(--fs-500);
   font-weight: 300;
+  max-inline-size: 70ch;
+  text-wrap: balance;
 }
 
 #cv-main section {
@@ -11154,7 +11167,7 @@ time {
   opacity: 0;
 }
 .donut-chart.active {
-  animation: donut-fade 1s forwards;
+  animation: fade-in 1s forwards;
 }
 .donut-chart.active .donut-segment-1 {
   animation: donut-segment-1 2s forwards;
@@ -11192,7 +11205,7 @@ time {
   }
 }
 
-@keyframes donut-fade {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -11298,6 +11311,10 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   font-weight: 800;
   margin-left: 0;
   border-bottom: none;
+}
+.menu .navbar-brand.active {
+  opacity: 0;
+  animation: fade-in 1s forwards;
 }
 .menu .navbar-brand:hover {
   color: #AE2661 !important;

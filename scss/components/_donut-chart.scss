@@ -10,7 +10,7 @@
 
     &.active{
         // display:inline-block;
-        animation: donut-fade 1s forwards;
+        animation: fade-in 1s forwards;
 
         .donut-segment-1{
             animation: donut-segment-1 2s forwards;
@@ -55,7 +55,7 @@
         }
 }
 
-@keyframes donut-fade {
+@keyframes fade-in {
 
     0% {
             opacity: 0;

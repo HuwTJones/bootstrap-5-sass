@@ -20,4 +20,9 @@
 .contact-btn{
     font-weight:400;
     margin:auto 1rem;
+
+    &.active {
+        opacity: 0;
+        animation: fade-in 1s forwards;
+    }
 }
