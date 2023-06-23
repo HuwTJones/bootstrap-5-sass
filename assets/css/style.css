@@ -11071,7 +11071,6 @@ time {
   font-size: var(--fs-400);
   line-height: 1.5;
   margin-top: 0;
-  text-wrap: balance;
 }
 .work-card .img-fluid, .work-card .card-img {
   height: 100%;
@@ -11320,7 +11319,7 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 }
 .menu .navbar-brand {
   color: #214944 !important;
-  font-size: 1.5rem;
+  font-size: 32px;
   font-weight: 800;
   margin-left: 0;
   border-bottom: none;
