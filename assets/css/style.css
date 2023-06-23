@@ -10833,7 +10833,7 @@ textarea.form-control-lg {
 }
 .contact-btn.active {
   opacity: 0;
-  animation: fade-in 1s forwards;
+  animation: fade-in 2s forwards;
 }
 
 :root {
@@ -10937,9 +10937,13 @@ h5 {
 .hero-section .lead {
   padding-block: min(5vh, 2rem);
   font-size: var(--fs-500);
+  color: #214944;
   font-weight: 300;
   max-inline-size: 70ch;
   text-wrap: balance;
+}
+.hero-section .lead strong {
+  font-weight: 500;
 }
 
 #cv-main section {
@@ -11056,7 +11060,7 @@ time {
 }
 
 .work-card {
-  max-width: clamp(320px, 100%, 584px);
+  max-width: clamp(320px, 100%, 560px);
 }
 .work-card h3 {
   font-size: var(--fs-500);
@@ -11093,6 +11097,10 @@ time {
     border-radius: 0.375rem 0.375rem 0 0;
     height: 20%;
   }
+}
+.work-card.active {
+  opacity: 0;
+  animation: fade-in 2s forwards;
 }
 
 .contact-card {
@@ -11317,7 +11325,7 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 }
 .menu .navbar-brand.active {
   opacity: 0;
-  animation: fade-in 1s forwards;
+  animation: fade-in 2s forwards;
 }
 .menu .navbar-brand:hover {
   color: #AE2661 !important;

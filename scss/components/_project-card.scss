@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .work-card{
-    max-width:clamp(320px, 100%, 584px);
+    max-width:clamp(320px, 100%, 560px);
 
     h3 {
             font-size: var(--fs-500);
@@ -40,6 +40,11 @@
             border-radius: 0.375rem 0.375rem 0 0;
             height:20%;
         }
+    }
+
+    &.active{
+        opacity: 0;
+        animation: fade-in 2s forwards;
     }
 }
 
