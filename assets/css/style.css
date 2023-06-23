@@ -11055,6 +11055,9 @@ time {
   overflow: hidden;
 }
 
+.work-card {
+  max-width: clamp(320px, 100%, 584px);
+}
 .work-card h3 {
   font-size: var(--fs-500);
   font-weight: 500;
