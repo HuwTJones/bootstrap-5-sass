@@ -28,8 +28,23 @@ body{
     color:$primary-800;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+    white-space: unset;
+    // text-wrap: balance;
+}
+
 section{
-   padding-block:min(10vh, 6rem); 
+   padding-block:min(10vh, 6rem);
+
+   p, ul li, ol li, blockquote{
+    max-inline-size:80ch;
+   }
 }
 
 h1 {
@@ -62,6 +77,7 @@ h2 {
 h3 {
     font-size: var(--fs-500);
     font-weight: 700;
+    max-width: 40ch;
     margin-top:min(5vh, 2rem);
 
     &:not(.bg-primary h3, .tldr h3) {
@@ -127,4 +143,5 @@ li{
 
 time{
     font-weight:700;
+    opacity:0;
 }

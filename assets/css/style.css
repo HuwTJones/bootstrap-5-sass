@@ -10769,11 +10769,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.shortest-time {
+.shortest-time.active {
   animation: secondary-pulse 2s forwards;
 }
 
-.longest-time {
+.longest-time.active {
   animation: fade-in-opacity-50 2s forwards;
 }
 
@@ -10787,7 +10787,7 @@ textarea.form-control-lg {
     opacity: 1;
   }
   50% {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-300);
     opacity: 0;
     color: #AE2661;
   }
@@ -10858,8 +10858,21 @@ body {
   color: #112623;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  white-space: unset;
+}
+
 section {
   padding-block: min(10vh, 6rem);
+}
+section p, section ul li, section ol li, section blockquote {
+  max-inline-size: 80ch;
 }
 
 h1 {
@@ -10887,6 +10900,7 @@ h2:not(.bg-primary h2, .tldr h2) {
 h3 {
   font-size: var(--fs-500);
   font-weight: 700;
+  max-width: 40ch;
   margin-top: min(5vh, 2rem);
 }
 h3:not(.bg-primary h3, .tldr h3) {
@@ -10945,6 +10959,7 @@ li {
 
 time {
   font-weight: 700;
+  opacity: 0;
 }
 
 .persona {
@@ -11027,6 +11042,15 @@ time {
   overflow: hidden;
 }
 
+.work-card h3 {
+  font-size: var(--fs-500);
+  font-weight: 500;
+  margin-top: min(1vh, 0.5rem);
+}
+.work-card h4 {
+  font-size: var(--fs-400);
+  margin-top: min(2vh, 1rem);
+}
 .work-card .img-fluid, .work-card .card-img {
   height: 100%;
   object-fit: cover;
@@ -11127,7 +11151,16 @@ time {
   width: 80%;
   font-size: var(--fs-400);
   margin: 0 auto;
-  animation: donut-fade 1s;
+  opacity: 0;
+}
+.donut-chart.active {
+  animation: donut-fade 1s forwards;
+}
+.donut-chart.active .donut-segment-1 {
+  animation: donut-segment-1 2s forwards;
+}
+.donut-chart.active .donut-segment-2 {
+  animation: donut-segment-2 2s forwards;
 }
 .donut-chart .donut-ring {
   stroke: #ccc;
@@ -11135,12 +11168,6 @@ time {
 .donut-chart .donut-segment {
   transform-origin: center;
   stroke: #AE2661;
-}
-.donut-chart .donut-segment-1 {
-  animation: donut-segment-1 2s;
-}
-.donut-chart .donut-segment-2 {
-  animation: donut-segment-2 2s;
 }
 .donut-chart .donut-text {
   font-family: Arial, Helvetica, sans-serif;

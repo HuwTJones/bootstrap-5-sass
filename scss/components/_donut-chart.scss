@@ -1,10 +1,25 @@
 @use '../custom' as *;
 
+
 .donut-chart{
     width:80%;
     font-size: var(--fs-400);
     margin:0 auto;
-    animation:donut-fade 1s;
+    opacity:0;
+    // animation:donut-fade 1s;
+
+    &.active{
+        // display:inline-block;
+        animation: donut-fade 1s forwards;
+
+        .donut-segment-1{
+            animation: donut-segment-1 2s forwards;
+        }
+
+        .donut-segment-2{
+            animation: donut-segment-2 2s forwards;
+        }
+    }
 
     .donut-ring{
         stroke:#ccc;
@@ -13,14 +28,6 @@
     .donut-segment{
         transform-origin:center;
         stroke:$secondary;  
-    }
-
-    .donut-segment-1{
-        animation: donut-segment-1 2s;
-    }
-
-    .donut-segment-2 {
-        animation: donut-segment-2 2s;
     }
 
     .donut-text {

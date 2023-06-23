@@ -1,6 +1,16 @@
 @use '../custom' as *;
 
 .work-card{
+    h3 {
+            font-size: var(--fs-500);
+            font-weight: 500;
+            margin-top: min(1vh, 0.5rem);
+        }
+
+    h4{
+        font-size:var(--fs-400);
+        margin-top: min(2vh, 1rem);
+    }
 
     .img-fluid, .card-img {
         height: 100%;
