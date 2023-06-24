@@ -1,6 +1,15 @@
 @use '../custom' as *;
 
-  h2, h3 {
+h1{
+  .title-icon{
+    border:6px solid;
+    border-radius:8px;
+    -webkit-text-stroke: 0 !important;
+    margin-right: 0.5rem;
+  }
+}  
+
+h2, h3 {
       display:flex;
       align-items:center;
     

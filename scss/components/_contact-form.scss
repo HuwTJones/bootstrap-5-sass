@@ -2,4 +2,18 @@
 
 .thanks-holder{
     min-height:50vh;
+    padding-block: min(10vh, 8rem);
+
+    .lead {
+            padding-block: min(10vh, 4rem);
+            font-size: var(--fs-500);
+            color: $primary;
+            font-weight: 300;
+            max-inline-size: 100%;
+            text-wrap: balance;
+    
+            strong {
+                font-weight: 500;
+            }
+        }
 }

@@ -10839,7 +10839,7 @@ textarea.form-control-lg {
 :root {
   --ff-body:"Poppins", sans-serif;
   --ff-heading: "Poppins", sans-serif;
-  --fs-xl: clamp(3.5rem, 12vw + 1rem, 8rem);
+  --fs-xl: clamp(3.25rem, 10vw + 1rem, 7rem);
   --fs-700: 2.5rem;
   --fs-600: 2rem;
   --fs-500: 1.25rem;
@@ -10874,7 +10874,7 @@ blockquote {
 }
 
 section {
-  padding-block: min(10vh, 6rem);
+  padding-block: min(10vh, 8rem);
 }
 section p, section ul li, section ol li, section blockquote {
   max-inline-size: 80ch;
@@ -10975,7 +10975,7 @@ li {
 }
 
 time {
-  font-weight: 700;
+  font-weight: 600;
   opacity: 0;
 }
 
@@ -11111,6 +11111,18 @@ time {
 
 .thanks-holder {
   min-height: 50vh;
+  padding-block: min(10vh, 8rem);
+}
+.thanks-holder .lead {
+  padding-block: min(10vh, 4rem);
+  font-size: var(--fs-500);
+  color: #214944;
+  font-weight: 300;
+  max-inline-size: 100%;
+  text-wrap: balance;
+}
+.thanks-holder .lead strong {
+  font-weight: 500;
 }
 
 .journey-step-1 {
@@ -11253,6 +11265,13 @@ time {
   .tldr {
     width: 75%;
   }
+}
+
+h1 .title-icon {
+  border: 6px solid;
+  border-radius: 8px;
+  -webkit-text-stroke: 0 !important;
+  margin-right: 0.5rem;
 }
 
 h2, h3 {
