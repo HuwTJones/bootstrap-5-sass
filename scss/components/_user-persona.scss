@@ -82,7 +82,8 @@
         border-bottom-right-radius: 8px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-        background-color: $secondary-100;
+        // background-color: $secondary-100;
+        background-image: linear-gradient($secondary-100 0%, $secondary-500 84%);
         position: relative;
         overflow: hidden;
     }

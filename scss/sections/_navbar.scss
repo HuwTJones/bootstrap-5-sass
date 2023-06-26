@@ -58,6 +58,7 @@
             &:hover {
                 color: $secondary !important;
                 border-bottom: none;
+                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
             }
     
     

@@ -14,22 +14,33 @@ body {
     font-weight:400;
     color:$white;
 
-    // Style the footer links
-        a {
-            text-decoration: none;
-            color: $white;
+    .nav-link {
+            color: $white !important;
+            font-size: var(--fs-400);
+            font-weight: 500;
+            padding: 0;
+            margin: auto 1rem;
+            border-bottom: 2px solid transparent;
     
             &:hover {
-                text-decoration: underline;
+                padding:0;
+                border-bottom: 2px solid $secondary;
             }
     
-            &:active {
-                text-decoration: none;
-            }
         }
+
 }
 
 .socials-holder{
-    font-size: var(--fs-500);
+    font-size: var(--fs-600);
+
+    a{
+        color:$white;
+
+        &:hover{
+            color:$secondary;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+        }
+    }
 }
 

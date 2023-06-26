@@ -2,7 +2,6 @@
 
  // /*user journey map and story*/
 
-
  .journey-step-1 {
    background-color: $journey-step-1;
  }
@@ -35,7 +34,11 @@
        color: #fff;
    }
 
-   .las {
+   .touchpoint, .chevron {
+      font-size: var(--fs-600);
+   }
+
+   .face-icon{
       font-size: var(--fs-500);
    }
 
@@ -59,15 +62,18 @@
      }
   
      .meter .sad {
-       background-color: $emotional-sad;
+      //  background-color: $emotional-sad;
+      background-image: linear-gradient($red-200 0%, $red-500 84%);
      }
   
      .meter .happy {
-       background-color: $emotional-happy;
+      //  background-color: $emotional-happy;
+      background-image: linear-gradient($green-200 0%, $green-500 84%);
      }
   
      .meter .mid {
-       background-color: $emotional-mid;
+      //  background-color: $emotional-mid;
+      background-image: linear-gradient($yellow-300 0%, $yellow-600 84%);
      }
  }
 

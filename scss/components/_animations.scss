@@ -1,29 +1,31 @@
 @use '../custom' as *;
 
 .shortest-time.active{
+    font-size: var(--fs-xl);
     animation: secondary-pulse 2s forwards;
 }
 
 .longest-time.active{
+    font-size: var(--fs-xl);
     animation: fade-in-opacity-50 2s forwards;
 }
 
 @keyframes secondary-pulse{
     0%{
-        font-size: var(--fs-300);
+        // font-size: var(--fs-300);
         opacity:0;
     }
     25%{
-        font-size: var(--fs-xl);
+        // font-size: var(--fs-xl);
         opacity:1;
     }
     50%{
-        font-size: var(--fs-300);
+        // font-size: var(--fs-300);
         opacity:0;
         color: $secondary;
     }
     100%{
-        font-size: var(--fs-xl);
+        // font-size: var(--fs-xl);
         opacity:1;
         color:$secondary;
     }
@@ -31,15 +33,15 @@
 
 @keyframes fade-in-opacity-50{
     0%{
-        font-size: var(--fs-300);
+        // font-size: var(--fs-300);
         opacity: 0;
     }
     50%{
-        font-size: var(--fs-xl);
+        // font-size: var(--fs-xl);
         opacity: 1;
     }
     100%{
-        font-size: var(--fs-xl);
+        // font-size: var(--fs-xl);
         opacity: 0.5;
     }
 }

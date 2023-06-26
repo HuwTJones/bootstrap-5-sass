@@ -10770,44 +10770,39 @@ textarea.form-control-lg {
   }
 }
 .shortest-time.active {
+  font-size: var(--fs-xl);
   animation: secondary-pulse 2s forwards;
 }
 
 .longest-time.active {
+  font-size: var(--fs-xl);
   animation: fade-in-opacity-50 2s forwards;
 }
 
 @keyframes secondary-pulse {
   0% {
-    font-size: var(--fs-300);
     opacity: 0;
   }
   25% {
-    font-size: var(--fs-xl);
     opacity: 1;
   }
   50% {
-    font-size: var(--fs-300);
     opacity: 0;
     color: #AE2661;
   }
   100% {
-    font-size: var(--fs-xl);
     opacity: 1;
     color: #AE2661;
   }
 }
 @keyframes fade-in-opacity-50 {
   0% {
-    font-size: var(--fs-300);
     opacity: 0;
   }
   50% {
-    font-size: var(--fs-xl);
     opacity: 1;
   }
   100% {
-    font-size: var(--fs-xl);
     opacity: 0.5;
   }
 }
@@ -11054,7 +11049,7 @@ time {
   border-bottom-right-radius: 8px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #D33479;
+  background-image: linear-gradient(#D33479 0%, #A02359 84%);
   position: relative;
   overflow: hidden;
 }
@@ -11155,7 +11150,10 @@ time {
 .user-journey .card-footer {
   color: #fff;
 }
-.user-journey .las {
+.user-journey .touchpoint, .user-journey .chevron {
+  font-size: var(--fs-600);
+}
+.user-journey .face-icon {
   font-size: var(--fs-500);
 }
 .user-journey .meter {
@@ -11176,13 +11174,13 @@ time {
   overflow: hidden;
 }
 .user-journey .meter .sad {
-  background-color: #dc3545;
+  background-image: linear-gradient(#f1aeb5 0%, #dc3545 84%);
 }
 .user-journey .meter .happy {
-  background-color: #198754;
+  background-image: linear-gradient(#a3cfbb 0%, #198754 84%);
 }
 .user-journey .meter .mid {
-  background-color: #fd7e14;
+  background-image: linear-gradient(#ffda6a 0%, #cc9a06 84%);
 }
 
 .donut-chart {
@@ -11297,10 +11295,6 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
   color: white;
 }
 
-.user-journey .touchpoint, .user-journey .chevron {
-  font-size: var(--fs-500);
-}
-
 .navbar {
   min-height: 64px;
 }
@@ -11351,6 +11345,7 @@ h2 .cv-icon.text-white, h3 .cv-icon.text-white {
 .menu .navbar-brand:hover {
   color: #AE2661 !important;
   border-bottom: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 .menu .navbar-brand span.text-transparent {
   color: #AE2661;
@@ -11379,19 +11374,28 @@ body {
   font-weight: 400;
   color: #fff;
 }
-.footer a {
-  text-decoration: none;
-  color: #fff;
+.footer .nav-link {
+  color: #fff !important;
+  font-size: var(--fs-400);
+  font-weight: 500;
+  padding: 0;
+  margin: auto 1rem;
+  border-bottom: 2px solid transparent;
 }
-.footer a:hover {
-  text-decoration: underline;
-}
-.footer a:active {
-  text-decoration: none;
+.footer .nav-link:hover {
+  padding: 0;
+  border-bottom: 2px solid #AE2661;
 }
 
 .socials-holder {
-  font-size: var(--fs-500);
+  font-size: var(--fs-600);
+}
+.socials-holder a {
+  color: #fff;
+}
+.socials-holder a:hover {
+  color: #AE2661;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
