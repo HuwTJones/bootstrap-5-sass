@@ -11400,7 +11400,8 @@ body {
 }
 .footer .nav-link:hover {
   padding: 0;
-  border-bottom: 2px solid #AE2661;
+  color: #D33479 !important;
+  border-bottom: 2px solid #D33479;
 }
 
 .socials-holder {
@@ -11410,7 +11411,7 @@ body {
   color: #fff;
 }
 .socials-holder a:hover {
-  color: #AE2661;
+  color: #D33479;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 

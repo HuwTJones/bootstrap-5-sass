@@ -24,7 +24,8 @@ body {
     
             &:hover {
                 padding:0;
-                border-bottom: 2px solid $secondary;
+                color:$secondary-100 !important;
+                border-bottom: 2px solid $secondary-100;
             }
     
         }
@@ -38,7 +39,7 @@ body {
         color:$white;
 
         &:hover{
-            color:$secondary;
+            color:$secondary-100;
             transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
         }
     }
