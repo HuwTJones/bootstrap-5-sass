@@ -10975,6 +10975,9 @@ h5 {
 .tldr h2 {
   color: #AE2661;
 }
+.tldr h3 {
+  margin-top: 1rem;
+}
 
 ul,
 ol {
